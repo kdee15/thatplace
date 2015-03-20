@@ -3,7 +3,7 @@
     "name": "YOUR_SITE_NAME",
     "version": "2.0.0",
     "description": "",
-    "siteSource": "site",
+    "siteSource": "",
     "assets" : {
         "live": "http://",
         "staging": "http://",

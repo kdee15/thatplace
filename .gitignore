@@ -5,5 +5,8 @@
 _system/node_modules
 _system/_bower.cache
 _system/.sass-cache
+.sass-cache
+
+_system/_site/node_modules
 
 # 2. CUSTOM IGNORE FODDER
