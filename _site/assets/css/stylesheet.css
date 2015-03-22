@@ -1884,6 +1884,8 @@ html, body {
   position: absolute;
   width: 100%;
   height: 100%;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
 }
 .logo--poly.d1 {
   background: #000;
@@ -1914,11 +1916,26 @@ html, body {
   background: #00BFFF;
   -webkit-clip-path: polygon(72.5% 7.5%, 75.5% 15%, 30% 30%);
           clip-path: polygon(72.5% 7.5%, 75.5% 15%, 30% 30%);
+  z-index: 400;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+.logo--poly.d6:hover {
+  -webkit-clip-path: polygon(90% 10%, 90% 30%, 10% 30%, 10% 10%);
+          clip-path: polygon(90% 10%, 90% 30%, 10% 30%, 10% 10%);
+  background: #9d261d;
+  -webkit-transition: 0.8s;
+          transition: 0.8s;
 }
 .logo--poly.d7 {
   background: #00BFFF;
   -webkit-clip-path: polygon(75% 75.5%, 75.5% 15%, 30% 30%);
           clip-path: polygon(75% 75.5%, 75.5% 15%, 30% 30%);
+}
+.logo--poly.d8 {
+  background: #00BFFF;
+  -webkit-clip-path: polygon(72.5% 7.5%, 75.5% 15%, 30% 30%);
+          clip-path: polygon(72.5% 7.5%, 75.5% 15%, 30% 30%);
 }
 
 .figure-logo .svg-logo {
