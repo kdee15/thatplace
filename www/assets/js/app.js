@@ -14,9 +14,6 @@ var app = angular.module('app', [
     'ngAnimate',
     'ui.router',
     'ngTouch',
-    'swipe',
-    'ionic',
-    'ionic.contrib.ui.hscrollcards',
     
     'globalControllers'
                                       
@@ -48,6 +45,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
         .state('home', {
             url: '/home',
             templateUrl: 'partials/landing.html',
+            
+        })
+    
+        .state('test', {
+            url: '/test',
+            templateUrl: 'partials/test.html',
             
         })
     
@@ -84,8 +87,10 @@ globalControllers.controller('globalCtrl', ['$scope', '$http',
     //A.2.1. changing the sides of the button only on load and on browser resize
 
     $(window).on("load resize", function() {
+        
         topHalf();
         leftHalf();
+        
     });
       
     //A.2.1. END 
@@ -93,7 +98,9 @@ globalControllers.controller('globalCtrl', ['$scope', '$http',
     //A.2.2. when scrolling vertically only top and bottom sides need to be recalculated
 
     $("body").scroll(function() {
+        
         topHalf();
+        
     });
       
     //A.2.2. END  
@@ -101,6 +108,7 @@ globalControllers.controller('globalCtrl', ['$scope', '$http',
     //A.2.3. toggle button class if it's in the top or bottom half of the screen
 
     function topHalf() {
+        
         $(".button").each(function() {
             var self = $(this),
             offTop = self.offset().top,
@@ -108,7 +116,9 @@ globalControllers.controller('globalCtrl', ['$scope', '$http',
             halfWindowHeight = ($(window).height())/2;
 
             self.toggleClass("top-half", (offTop - scrTop) < halfWindowHeight);
+            
         });
+        
     }
       
     //A.2.3. END   
@@ -123,10 +133,15 @@ globalControllers.controller('globalCtrl', ['$scope', '$http',
 
             self.toggleClass("left-half", offLeft < halfWindowWidth);
         });
-    }// changing the sides of the button only on load and on browser resize
+    }
+        
+    // changing the sides of the button only on load and on browser resize
+        
     $(window).on("load resize", function() {
+        
         topHalf();
         leftHalf();
+        
     });
       
     //A.2.4. END   

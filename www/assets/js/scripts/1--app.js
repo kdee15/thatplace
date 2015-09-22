@@ -14,9 +14,6 @@ var app = angular.module('app', [
     'ngAnimate',
     'ui.router',
     'ngTouch',
-    'swipe',
-    'ionic',
-    'ionic.contrib.ui.hscrollcards',
     
     'globalControllers'
                                       

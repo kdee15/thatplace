@@ -1,8 +1,8 @@
 {
 
-    "name": "YOUR_SITE_NAME",
-    "version": "2.0.0",
-    "description": "",
+    "name": "kdee.co.za",
+    "version": "1.0.0",
+    "description": "Kirk Daniels CV site",
     "siteSource": "site",
     "assets" : {
         "live": "http://",

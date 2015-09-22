@@ -6,94 +6,118 @@
     // A.1. MAJOR SECTION ---------------------------------------------------------------------------------------------
 
 
-/* button variables */
-$bsize: 10px;
-$animtiming: 80ms steps(20) both;
-
-html {
-  height: 100%;
-}
 
 
 /* the perspective set here is the most important declaration for the 3d look of the buttons (values over 1000px make the buttons look almost flat) */
+
 .warp {
-  margin: 0;
-  height: 100%;
-  overflow-y: scroll;
-  font-family: sans-serif;
-  font-size: 16px;
-  perspective: 350px;
+    
+    position: relative;
+    
 }
 
 .container {
-  margin: 0 auto;
-  background: #fff;
-  transform-style: preserve-3d;
+    
+    transform-style: preserve-3d;
+    
+}
+
+.floater {
+    
+    position: relative;
+    padding: $baseline;
+    margin: $baseline-small;
+    background: $grayLighter;
+    transform-style: preserve-3d;
+    transform: translateZ( 0px );
+    
+    &:before {
+        
+        content: "";
+        @include absolute (0);
+        background-color: $black;
+        transform: translateZ( -10px );
+        
+    }
+    
 }
 
 
 .button {
-  position: relative;
-  display: inline-block;
-  padding: 4px 16px;
-  border: 0;
-  min-width: 48px;
-  margin: 10px;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: $blue;
-
-  color: #222;
-  transform-style: preserve-3d;
-  transform: translateZ( $bsize );
-  cursor: pointer;
-  user-select: none;
-
-  &:focus {outline: none;}
     
-  /* double colon syntax for pseudo elements because IE8 doesn't need to see them (no transforms) */
-  &::before, &::after {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: darken($blue, 25%);
-    transform-origin: 0% 0%;
-  }
-  &::before {
-    content:"";
-    height: $bsize;
-    background: darken($blue, 15%);
-    transform: rotateX(-90deg);
-  }
-  &::after {
-    content:"";
-    width: $bsize;
-    transform: rotateY(90deg);
-  }
+    position: relative;
+    display: inline-block;
+    padding: $baseline-small;
+    border: 0;
+    margin: $baseline;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: $blue;
 
-  &.top-half::before {
-    top: auto;
-    bottom: 0;
-    background: darken($blue, 35%);
-    transform-origin: 100% 100%;
-    transform: rotateX(90deg);
-  }
+    color: $black;
+    transform-style: preserve-3d;
+    transform: translateZ( 2px );
+    cursor: pointer;
+    
+    a {
+        
+        color: black;
+        
+    }
 
-  &.left-half::after {
-    left: auto;
-    right: 0;
-    transform-origin: 100% 100%;
-    transform: rotateY(-90deg);
-  }
+    /* double colon syntax for pseudo elements because IE8 doesn't need to see them (no transforms) */
+
+    &:before, 
+    &:after {
+
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: $red;
+        transform-origin: 0% 0%;
+
+    }
+    
+    &:before {
+
+        content:'';
+        height: 100px;
+        background: $red;
+        transform: rotateX(-90deg);
+    }
+
+    &:after {
+
+        content:'';
+        width: 100px;
+        transform: rotateY(90deg);
+
+    }
+
+    &.top-half:before {
+        
+        top: auto;
+        bottom: 0;
+        background: $blue;
+        transform-origin: 100% 100%;
+        transform: rotateX(90deg);
+        
+    }
+
+    &.left-half:after {
+        
+        left: auto;
+        right: 0;
+        transform-origin: 100% 100%;
+        transform: rotateY(-90deg);
+        
+    }
 
 }
 
 
-
-
-    // A.1. END -------------------------------------------------------------------------------------------------------
+// A.1. END -------------------------------------------------------------------------------------------------------
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

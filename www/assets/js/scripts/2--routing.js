@@ -24,6 +24,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
             
         })
     
+        .state('test', {
+            url: '/test',
+            templateUrl: 'partials/test.html',
+            
+        })
+    
     });
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
