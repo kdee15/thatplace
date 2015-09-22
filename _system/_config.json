@@ -1,0 +1,78 @@
+{
+
+    "root": "www",
+    
+    "assets" : {
+        
+        "js" : {
+            
+            "bower" : [
+                
+                "modernizr/modernizr.js",
+                "jquery/dist/jquery.js",
+                "angular/angular.js",
+                "ionic/release/js/ionic.min.js",
+                "ionic/release/js/ionic-angular.min.js",
+                "angular-ui-router/release/angular-ui-router.js",
+                "angular-touch/angular-touch.js",
+                "angular-animate/angular-animate.js",
+                "angular-sanitize/angular-sanitize.min.js",
+                "angular-swipe/dist/angular-swipe.min.js",
+                "ionic-ion-horizontal-scroll-cards/ionic.hscrollcards.js",
+                "aos/dist/aos.js"
+
+            ],
+            "order" : [
+                
+                "modernizr.js",
+                "jquery.js",
+                "angular.js",
+                "ionic.min.js",
+                "ionic-angular.min.js",
+                "angular-ui-router.js",
+                "angular-sanitize.min.js",
+                "angular-swipe.min.js",
+                "angular-touch.js",
+                "angular-animate.js",
+                "ionic.hscrollcards.js",
+                "aos.js"
+
+            ],
+            "maps" : [
+
+                "jquery/dist/jquery.min.map",
+                "angular/angular.min.js.map",
+                "angular-touch/angular-touch.min.js.map",
+                "angular-animate/angular-animate.min.js.map",
+                "angular-sanitize/angular-sanitize.min.map"
+
+            ]
+            
+        },
+        
+        "css" : {
+            
+            "vendors" : [
+
+                "normalize.css/normalize.css",
+                "aos/dist/aos.css"
+
+            ],
+            "konstruct" : [
+
+                "konstruct.config/",
+                "konstruct.bricks/",
+                "konstruct.cement/"
+
+            ],
+            "site" : [
+
+                "konstruct.site/"
+
+            ]
+            
+        }
+        
+    }
+
+}
