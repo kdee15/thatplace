@@ -21,106 +21,50 @@ globalControllers.controller('globalCtrl', ['$scope', '$http',
         //A.1. END ------------------------------------------------------------------------------------------------------
 
     //A.2. PARALLAX SLIDERS -------------------------------------------------------------------------------------------
-      
-      
-    //A.2.1. changing the sides of the button only on load and on browser resize
-
-    $(window).on("load resize", function() {
         
-        topHalf();
-        leftHalf();
         
-    });
-      
-    //A.2.1. END 
-
-    //A.2.2. when scrolling vertically only top and bottom sides need to be recalculated
-
-    $("body").scroll(function() {
         
-        topHalf();
+// changing the sides of the button only on load and on browser resize
         
-    });
-      
-    //A.2.2. END  
+$(window).on("load resize", function() {
+	topHalf();
+	leftHalf();
+});
 
-    //A.2.3. toggle button class if it's in the top or bottom half of the screen
-
-    function topHalf() {
+// when scrolling vertically only top and bottom sides need to be recalculated
         
-        $(".button").each(function() {
-            var self = $(this),
-            offTop = self.offset().top,
-            scrTop = $(window).scrollTop(),
-            halfWindowHeight = ($(window).height())/2;
+$("body").scroll(function() {
+	topHalf();
+});
 
-            self.toggleClass("top-half", (offTop - scrTop) < halfWindowHeight);
-            
-        });
+// toggle button class if it's in the top or bottom half of the screen
         
-    }
-      
-    //A.2.3. END   
+function topHalf() {
+	$(".button").each(function() {
+		var self = $(this),
+        offTop = self.offset().top,
+        scrTop = $(window).scrollTop(),
+        halfWindowHeight = ($(window).height())/2;
 
-    //A.2.4. toggle button class if it's in left or right half of the screen
-      
-    function leftHalf() {
-        $(".button").each(function() {
-            var self = $(this),
-            offLeft = self.offset().left,
-            halfWindowWidth = ($(window).width())/2;
+		self.toggleClass("top-half", (offTop - scrTop) < halfWindowHeight);
+	});
+}
 
-            self.toggleClass("left-half", offLeft < halfWindowWidth);
-        });
-    }
+// toggle button class if it's in left or right half of the screen
         
-    // changing the sides of the button only on load and on browser resize
+function leftHalf() {
+	$(".button").each(function() {
+		var self = $(this),
+        offLeft = self.offset().left,
+        halfWindowWidth = ($(window).width())/2;
+
+		self.toggleClass("left-half", offLeft < halfWindowWidth);
+	});
+}
         
-    $(window).on("load resize", function() {
         
-        topHalf();
-        leftHalf();
         
-    });
-      
-    //A.2.4. END   
 
-    //A.2.5. when scrolling vertically only top and bottom sides need to be recalculated
-      
-    $("body").scroll(function() {
-        topHalf();
-    });
-
-    //A.2.5. END  
-      
-    //A.2.6. toggle button class if it's in the top or bottom half of the screen
-      
-    function topHalf() {
-        $(".button").each(function() {
-            var self = $(this),
-            offTop = self.offset().top,
-            scrTop = $(window).scrollTop(),
-            halfWindowHeight = ($(window).height())/2;
-
-            self.toggleClass("top-half", (offTop - scrTop) < halfWindowHeight);
-        });
-    }
-
-    //A.2.6. END  
-      
-    //A.2.7. toggle button class if it's in left or right half of the screen
-      
-    function leftHalf() {
-        $(".button").each(function() {
-            var self = $(this),
-            offLeft = self.offset().left,
-            halfWindowWidth = ($(window).width())/2;
-
-            self.toggleClass("left-half", offLeft < halfWindowWidth);
-        });
-    }
-      
-    //A.2.7. END
       
     //A.2. END --------------------------------------------------------------------------------------------------------
   
