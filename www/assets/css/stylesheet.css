@@ -1441,6 +1441,12 @@ form {
           box-shadow: 0 0 20px black;
 }
 
+.panel {
+  width: 50%;
+  height: 200px;
+  background: pink;
+}
+
 .button {
   position: relative;
   display: inline-block;
