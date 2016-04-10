@@ -1,14 +1,14 @@
 {
 
-    "name": "YOUR_SITE_NAME",
-    "version": "2.0.0",
-    "description": "",
-    "siteSource": "site",
+    "name": "KDee.co.za",
+    "version": "1.0.0",
+    "description": "My CV site and playground",
+    "siteSource": "",
     "assets" : {
-        "live": "http://",
+        "live": "http://kdee.co.za",
         "staging": "http://",
         "dev": "http://",
-        "repository": "http://",
+        "repository": "https://github.com/kdee15/thatplace.git",
         "endpoint" : "http://",
         "documentation": "http://"
     },

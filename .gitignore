@@ -5,6 +5,9 @@
 _system/node_modules
 _system/_bower.cache
 _system/.sass-cache
+.sass-cache
+
+_system/_site/node_modules
 
 _site/_system/node_modules
 _site/_system/_bower.cache
