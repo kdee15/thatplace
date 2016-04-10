@@ -1,9 +1,20 @@
 # KONSTRUCT BOILERPLATE IGNORE FILE
 
-# 1. GULP IGNORE FODDER
+# 1. GULP IGNORE FOLDER
 
 _system/node_modules
 _system/_bower.cache
 _system/.sass-cache
+.sass-cache
+
+_system/_site/node_modules
+
+_site/_system/node_modules
+_site/_system/_bower.cache
+_site/_system/.sass-cache
+
+_system/_site/node_modules
+_system/_site/_bower.cache
+_system/_site/.sass-cache
 
 # 2. CUSTOM IGNORE FODDER
