@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+<!-- B. HEAD ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <body>
+{% include head.html %}
 
-      
-    <div class="parallax">
+<!-- B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <body>
         
-        <div class="parallax__group group1">
+        <!-- C. WORK AREA +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
         
-            <div class="parallax__layer parallax__layer--base">
+        <!-- C.1. SITE MASTHEAD ----------------------------------------------------------------------------------- -->
+        
+        {% include header.html %}
 
-                <p>HELLO</p>
+        <!-- C.1. END --------------------------------------------------------------------------------------------- -->
+        
+        <!-- C.2. SITE MAST --------------------------------------------------------------------------------------- -->
+        
+        <section id="mast">
+
+            <!-- C.2.1. INTRO ------------------------------------------------------------------------------------- -->
+
+            {% include home/intro.html %}
+            
+            <!-- C.2.1. End --------------------------------------------------------------------------------------- -->
+
+            <!-- C.2.2. SLIDER AREA ------------------------------------------------------------------------------- -->
+
+            <div class="wrapper">
+            
+                <!-- C.2.1. WE ARE OBJECTIVE -->
+
+                {% include home/about.html %}
+
+                <!-- C.2.1. END -->
+           
+                <!-- C.2.1. WE ARE OBJECTIVE -->
+
+                {% include home/work.html %}
+
+                <!-- C.2.1. END -->
+           
+                <!-- C.2.1. WE ARE OBJECTIVE -->
+
+                {% include home/stuff.html %}
+
+                <!-- C.2.1. END -->
+           
+                <!-- C.2.1. WE ARE OBJECTIVE -->
+
+                {% include home/contact.html %}
+
+                <!-- C.2.1. END -->
 
             </div>
-            
-        </div>
         
+            <!-- C.2.2. End --------------------------------------------------------------------------------------- -->
+
+        </section>
         
-        <div class="parallax__group group2">
+        <!-- C.2. END --------------------------------------------------------------------------------------------- -->
 
-            <div class="parallax__layer parallax__layer--base">
+        <!-- C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-                {{ content }}
-                
-            </div>
-            
-            <div class="parallax__layer parallax__layer--deep">
+        <!-- D. JAVASCRIPT ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-                {% include header.html %}
-
-            </div>
-            
-        </div>
+        <!-- D.1. FOOTER JS -->
         
+        {% include scripts.html %}
         
-        <div class="parallax__group group3">
-            
-            <div class="parallax__layer parallax__layer--base">
-
-                <h2>HEADING</h2>
-                <p>This is where we add more posts of another content type</p>
-                
-            </div>
-            
-            <div class="parallax__layer parallax__layer--deep">
-
-                <p>Im in deep ...</p>
-
-            </div>
-            
-        </div>
+        <!-- D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
         
-        
-        <div class="parallax__group group4">
-            
-            <div class="parallax__layer parallax__layer--base">
-
-                {% include footer.html %}
-                
-            </div>
-            
-        </div>
-        
-    </div>  
-      
-     
-  </body>
+    </body>
 
 </html>

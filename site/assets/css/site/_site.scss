@@ -8,9 +8,22 @@
 // =====================  INDEX  =====================
 // ==
 // == 1. OBJECTS
-// ===== 1.1. Variables
-// ===== 1.2. Mixins
+// ===== 0.1. Variables
+// ===== 1.0. Mixins
+// ===== 1.0.1. Custom Mixins
+// ===== 1.1. Global CSS
+// ===== 1.2. Burger Menu
 // ===== 1.3. Typography
+// ===== 1.4. Grids
+// ===== 1.5. Inputs
+// ===== 1.6. Video
+// ===== 1.7. Icons
+// ===== 1.8. Cards
+// ===== 1.9. Profile
+// ===== 1.10. Carousel
+// ===== 1.11. Buttons: ?
+// ===== 1.12. Buttons: ?
+
 // ==
 // == 2. SECTIONS
 // ===== 2.1. Masthead
@@ -31,20 +44,44 @@
 // Each component should ideally be an isolated block
 // structure that can stand on it's own, and live in
 // in any context.
+    // 0.1. Variables
+    @import	"_0.1-config--variables";
 
-    // 1.1. Variables
-    @import	"_1.1-object--variables";
+    // 1.0. MIXINS
+    @import	"_1.0-object--mixins";
 
-    // 1.2. Animations
-    @import	"_1.2-object--mixins";
+        // 1.0.1. MIXINS
+        @import	"_1.0.1-object--custom-mixins";
 
-    // 1.5. Typography
-    @import	"_1.3-object--typography";
+        // 1.0.2. GRIDS
+        @import	"_1.0.2-object--grids";
 
-    // 1.5. Parallax
-    @import	"_1.4-object--parallax";
+    // 1.1. Global CSS
+    @import	"_1.1-object--global";
 
-// 1. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    // 1.2. CARDS
+    @import	"_1.2-object--cards";
+
+        // 1.2.1. CARDS: SMALL
+        @import	"_1.2.1-object--card-small";
+
+        // 1.2.2. CARDS: MEDIUM
+        @import	"_1.2.2-object--card-medium";
+
+        // 1.2.3. CARDS: BIG
+        @import	"_1.2.3-object--card-big";
+
+        // 1.2.4. CARDS: LONG
+        @import	"_1.2.4-object--card-long";
+
+    // 1.3. ICONS
+    @import	"_1.3-object--icons";
+
+    // 1.4. MODALS
+    @import	"_1.4-object--modals";
+
+    // 1.5. AUDIO
+    @import	"_1.6-object--audio";
 
 // 2. SECTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -56,14 +93,30 @@
 // the above objects in a meaningful manner to build 
 // up any given page.
 
-    // 2.1. Masthead
+    // 2.1. MASTHEAD
     @import	"_2.1-section--masthead";
 
-    // 2.2. Mast
+    // 2.2. MAST
     @import	"_2.2-section--mast";
 
-    // 2.3. Footend
+    // 2.3. FOOTEND
     @import	"_2.3-section--footend";
+
+    // 2.4. ABOUT
+    @import	"_2.4-section--about";
+
+    // 2.5. SERVICES
+    @import	"_2.5-section--services";
+
+    // 2.6. ARTISTS
+    @import	"_2.6-section--artists";
+
+    // 2.7. CONTACT
+    @import	"_2.7-section--contact";
+
+    // 2.8. FRONT
+    @import	"_2.8-section--front";
+
 
 // 2. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -79,6 +132,7 @@
     // 3.1. Homepage
     @import	"_3.1-page--home";
 
+
 // 3. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// END OF FILE ##############################################
+// END OF FILE ########################################################################################################
