@@ -5,9 +5,7 @@
 // A.1. MASTHEAD ------------------------------------------------------------------------------------------------------
 
 #masthead {
-    
 
-    
     .nav-desk {
     
         position: fixed;
@@ -32,6 +30,19 @@
         
             @include position (absolute, 0);
             top: auto;
+            
+            ul { 
+                li { display: block; font-size: $x-small;
+                    
+                    a { color: $black; 
+                        outline: none; 
+                        display: block; 
+                        vertical-align: middle; 
+                        text-align: center;
+                        padding: $baseline 0;
+            }}}
+            
+            
         }
     }
     
@@ -46,78 +57,33 @@
         background: $ia-grey90;
         z-index: 5;
         
-        .logo {
-
-            @include icon (200px, 40px, $white);
-            width: 60px;
-            text-align: center;
-
-        }
-        
         .nav {
         
-            @include position (absolute, 0);
-            top: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            z-index: 1000;
+            
+            ul { text-align: right; 
+                li { display: inline-block; font-size: $small;
+                    a { display: block; padding: $baseline; color: $ia-grey30;
+            }}}
         }
+        
     }
 
 
     .nav {
 
-        ul {
+        ul { margin: 0; padding: 0; vertical-align: middle;	
 
-            margin: 0;
-            padding: 0;
-            vertical-align: middle;	
-
-            li {								
-                text-transform: uppercase;
-                font-size: $x-small;
-                list-style-type: none;
-                display: inline;
-                vertical-align: middle;
+            li { text-transform: uppercase; list-style-type: none; vertical-align: middle;
 
                 a {
-                    color: $black;
-                    outline: none;
-                    display: block;
-                    vertical-align: middle;
-                    text-align: center;
-                    padding: $baseline 0;
-                    
 
-                    &:hover {
-                        color: $ia-red;
-                        text-decoration: none;
-                        background: $ia-grey20;
-                    }
-                }
-
-                a:link {
-
-                    img { 
-                        vertical-align: middle;
-                        width: 35px;
-                        height: 35px;
-                        border: 2px solid $ia-grey20;
-                        border-radius: 100%;
-                    }
-                }
-
-                .imgLink {
-
-                    color: $ia-grey20;
-                    text-align: center;
-
-                    img {
-                        
-                        margin: 0 auto;
-
-                        &:hover, &:active {
-                            color: $ia-grey20;
-                            text-decoration: none;
-                        }
-                    }
+                    &:hover { color: $ia-blueLight; text-decoration: none; background: $ia-grey20; }
                 }
             }
         }
@@ -132,9 +98,19 @@
 
     @include media-query(feature) { 
 
-        .nav-mobi { display: block; .nav { display:none;}}
+        .nav-mobi { display: block; 
+            
+            .nav {
+            
+                &.hidden { display: none; }
+                
+                display: block;
+            
+            }
+        
+        }
+        
         .nav-desk { display: none; }
-        .imgLink { display: none!important; }
 
     }
 
@@ -144,9 +120,19 @@
 
     @include media-query(mobile) { 
 
-        .nav-mobi { display: block; .nav { display:none;}}
+        .nav-mobi { display: block; 
+            
+            .nav {
+            
+                &.hidden { display: none; }
+                
+                display: block;
+            
+            }
+        
+        }
+        
         .nav-desk { display: none; }
-        .imgLink { display: none!important; }
 
     }
 
@@ -158,7 +144,6 @@
 
         .nav-mobi { display: block; }
         .nav-desk { display: none; }
-        .imgLink { display: none; }
 
     }
 
@@ -170,7 +155,6 @@
 
         .nav-mobi { display: none; }
         .nav-desk { display: block; }
-        .imgLink { display: block; }
 
     }
 
@@ -182,7 +166,6 @@
 
         .nav-mobi { display: none; }
         .nav-desk { display: block; }
-        .imgLink { display: block; }
 
     }
 

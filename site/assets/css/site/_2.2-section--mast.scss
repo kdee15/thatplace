@@ -18,7 +18,7 @@
 
 @include media-query(feature) { 
 
-    #mast { padding-right: 0px; }
+    #mast { padding-right: 0; }
 
 }
 
@@ -30,11 +30,9 @@
 	
     #mast {
         
-        padding-right: 60px;
+        padding-right: 0;
 
-        .section {
-            padding: 60px 0;
-        }
+        .section { padding: 60px 0; }
 
     }
 }

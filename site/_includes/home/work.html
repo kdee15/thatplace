@@ -1,45 +1,46 @@
 
 <!-- C.2.6. ARTISTS -->
 
-<section class="section section-bobCasestudies" id="section-casestudies">
+<section class="section" id="section-work">
 
     <div class="container">
 
         <!-- C.2.6.1. Page Title -->
 
         <section class="section-header">
-            <figure class="figure-header icon">
-                <?php include ( 'assets/includes/icons/icon--microphone.html' ); ?>
-            </figure>
-            <h2>our artists</h2>
-            <span></span>
+            <figure class="figure-header icon">{% include icons/logo.html %}</figure>
+            <h2>{ my work : special moments }</h2>
         </section>
 
         <!-- C.2.6.2. Case Study List -->
         
-        <ul class="grid-group casestudies-group">
+        <ul class="">
             
-                <li class="grid-item casestudies-item view view-tenth">
-                    
-                    <img src="<?php the_field('photo') ?>" alt="client logo" class="mainImg" />
-                    <h3 class="card-title"><?php the_field('name') ?></h3>
-                    
-                    <div class="mask">
-                        <div class="foil">
-                            
-                            <p class="media-title bob-caseHover">CORPORATE</p>
-                            <?php the_field('audio1') ?>
-                            <div class="toggle-div button" name="<?php the_title(); ?>">
-                                <span>SEE MORE</span> 
-                            </div>
-                        </div>
+            {% for post in site.categories['work'] %}
+
+                <li class="grid-item">
+
+                    <div class="wrapper">
+                        <a href="{{ post.url }}">
+                            <figure class="figure-thumb">
+                                <img src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.description }}" />
+                            </figure>
+                            <aside class="aside-details">
+                                <h4>{{ post.date | date: '%d %b' }}</h4>
+                                <h3>{{ post.title }}</h3>
+                                <p>{{ post.description }}</p>
+                            </aside>
+                        </a>
                     </div>
-                    
-                    
+
                 </li>
+
+            {% endfor %}
 
 
         </ul>
+        
+        <a class="full red button" href="{{ site.url }}/work">VIEW ALL</a>
 
     </div>                 
 

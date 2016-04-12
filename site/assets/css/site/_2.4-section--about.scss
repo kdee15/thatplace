@@ -8,16 +8,10 @@
 
 // A.2. DIFFERENT -----------------------------------------------------------------------------------------------------
 
-#section-different {
+#section-about {
 
     background: $ia-grey20;
     background-size: cover;
-
-    // RESPONSIVE
-    padding: 0 0 40px 0;
-    // RESPONSIVE
-
-    color: #818181;
 
     // A.2.1 Components
 
@@ -27,7 +21,7 @@
 
         h2 {
             
-            color: $ia-grey90;
+            color: $ia-blueLight;
             margin: 0 0 35px 0;
             line-height: normal;
             
