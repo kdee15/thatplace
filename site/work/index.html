@@ -7,24 +7,20 @@ page-class: page-work article-listing
 
 ---
 
-<ul class="grid">
+<ul class="work grid">
 
     {% for post in site.categories['work'] %}
 
-        <li class="one-third">
-            <div class="small card">
-                <a href="{{ post.url }}">
-                    <figure class="figure-thumb">
-                        <img src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.description }}" />
-                    </figure>
-                    <aside class="aside-details">
-                        <p>work/index.html</p>
-                        <h4>{{ post.date | date: '%d %b' }}</h4>
-                        <h3>{{ post.title }}</h3>
-                        <p>{{ post.description }}</p>
-                    </aside>
-                </a>
-            </div>
+        <li class="one-half mobi">
+            <a href="{{ post.url }}" class="image card">
+                <figure class="background">
+                    <img class="bg" src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.title }}" />
+                </figure>
+                <aside class="card__body">
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.description }}</p>
+                </aside>
+            </a>
         </li>
 
     {% endfor %}

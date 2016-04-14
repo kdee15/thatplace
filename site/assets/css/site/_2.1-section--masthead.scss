@@ -55,7 +55,7 @@
         height: 60px;
         display: block;
         background: $ia-grey90;
-        z-index: 5;
+        z-index: 10000;
         
         .nav {
         
@@ -64,7 +64,6 @@
             left: 0;
             right: 0;
             height: 60px;
-            z-index: 1000;
             
             ul { text-align: right; 
                 li { display: inline-block; font-size: $small;
