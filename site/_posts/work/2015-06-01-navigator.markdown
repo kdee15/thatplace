@@ -2,14 +2,17 @@
 layout: 		article
 page-class: 	page-work article
 categories: 	work
-title:  		"Sports Junction"
-description:	St John’s College student activity manager
+title:  		"Navigator Films"
+description:	client public facing website
 date:   		2015-06-01
-thumb: 			work/thumbs/intelleapp.png
+thumb: 			work/thumbs/navigator.png
 ---
 
-<section id="sportsjunction">
+<!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
 
+<section id="navigator">
+
+    <!--- C.3.1. START DATE SQUARE -->
     <aside class="square" id="start">
         <span>AUG</span>
         <span>2015</span>
@@ -30,9 +33,12 @@ thumb: 			work/thumbs/intelleapp.png
         </ul>
     </aside>
 
+    <!--- C.3.2. END DATE SQUARE -->
     <aside class="square" id="end">
         <span>PRE</span>
         <span>SENT</span>
     </aside>
     
 </section>
+
+<!--- C.3. END ---------------------------------------------------------------------------------------------------- -->

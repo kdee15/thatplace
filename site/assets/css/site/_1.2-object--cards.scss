@@ -32,7 +32,7 @@
         .card__body {
             
             @include position (absolute, 0); 
-            z-index: 10; 
+            z-index: 1; 
             background: rgba($black,0.7); 
             transition: 0.5s;
         
