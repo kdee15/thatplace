@@ -4,10 +4,10 @@
     <title>kdee.co.za</title>
     <description>my portfolio site ... my little corner where i can play and just hang out.
 </description>
-    <link>http://kdee.co.za/</link>
-    <atom:link href="http://kdee.co.za/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Apr 2016 09:42:07 +0200</pubDate>
-    <lastBuildDate>Fri, 15 Apr 2016 09:42:07 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 15 Apr 2016 15:26:00 +0200</pubDate>
+    <lastBuildDate>Fri, 15 Apr 2016 15:26:00 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -53,26 +53,58 @@
     
     &lt;aside class=&quot;column-2&quot;&gt;
     &lt;span class=&quot;row-1&quot;&gt;
-        &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-1.png&quot; /&gt;&lt;/div&gt;
-        &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-2.png&quot; /&gt;&lt;/div&gt;
-        &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-3.png&quot; /&gt;&lt;/div&gt;
-        &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-4.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-1.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-2.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-3.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-4.png&quot; /&gt;&lt;/div&gt;
         &lt;/span&gt;
         &lt;span class=&quot;row-2&quot;&gt;
-        &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-5.png&quot; /&gt;&lt;/div&gt;
-        &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-6.png&quot; /&gt;&lt;/div&gt;
-        &lt;div id=&quot;pic-5&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-7.png&quot; /&gt;&lt;/div&gt;
-        &lt;div id=&quot;pic-6&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-8.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-5.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-6.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-5&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-7.png&quot; /&gt;&lt;/div&gt;
+        &lt;div id=&quot;pic-6&quot; class=&quot;mobile&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-8.png&quot; /&gt;&lt;/div&gt;
         &lt;/span&gt;
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
+&lt;section class=&quot;section&quot;&gt;
+
+    &lt;hscroller class=&quot;hscroller&quot;&gt;
+
+        &lt;hcard class=&quot;hscroller-card&quot;&gt;
+            &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-1.png&quot; /&gt;
+            &lt;/div&gt;
+        &lt;/hcard&gt;
+
+        &lt;hcard class=&quot;hscroller-card&quot;&gt;
+            &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-2.png&quot; /&gt;
+            &lt;/div&gt;
+        &lt;/hcard&gt;
+
+        &lt;hcard class=&quot;hscroller-card&quot;&gt;
+            &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-3.png&quot; /&gt;
+            &lt;/div&gt;
+        &lt;/hcard&gt;
+
+        &lt;hcard class=&quot;hscroller-card&quot;&gt;
+            &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;
+                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-4.png&quot; /&gt;
+            &lt;/div&gt;
+        &lt;/hcard&gt;
+
+    &lt;/hscroller&gt;
+
+&lt;/section&gt;
+
 &lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2016/02/01/tonplaygo/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2016/02/01/tonplaygo/</guid>
+        <link>http://localhost:4000/work/2016/02/01/tonplaygo/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2016/02/01/tonplaygo/</guid>
         
         
         <category>work</category>
@@ -113,8 +145,8 @@
 &lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Dec 2015 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2015/12/01/intelleapp/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2015/12/01/intelleapp/</guid>
+        <link>http://localhost:4000/work/2015/12/01/intelleapp/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2015/12/01/intelleapp/</guid>
         
         
         <category>work</category>
@@ -153,8 +185,8 @@
 &lt;/section&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2015/07/01/colourworks/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2015/07/01/colourworks/</guid>
+        <link>http://localhost:4000/work/2015/07/01/colourworks/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2015/07/01/colourworks/</guid>
         
         
         <category>work</category>
@@ -199,8 +231,8 @@
 &lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2015/06/01/navigator/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2015/06/01/navigator/</guid>
+        <link>http://localhost:4000/work/2015/06/01/navigator/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2015/06/01/navigator/</guid>
         
         
         <category>work</category>
@@ -239,8 +271,8 @@
 &lt;/section&gt;
 </description>
         <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2015/03/01/stj/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2015/03/01/stj/</guid>
+        <link>http://localhost:4000/work/2015/03/01/stj/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2015/03/01/stj/</guid>
         
         
         <category>work</category>
@@ -285,8 +317,8 @@
 &lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
 </description>
         <pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2014/04/01/usb/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2014/04/01/usb/</guid>
+        <link>http://localhost:4000/work/2014/04/01/usb/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2014/04/01/usb/</guid>
         
         
         <category>work</category>
@@ -331,8 +363,8 @@
 &lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
 </description>
         <pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2014/04/01/usb-ed/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2014/04/01/usb-ed/</guid>
+        <link>http://localhost:4000/work/2014/04/01/usb-ed/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2014/04/01/usb-ed/</guid>
         
         
         <category>work</category>
@@ -377,8 +409,8 @@
 &lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
 </description>
         <pubDate>Thu, 01 Aug 2013 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2013/08/01/waterfront/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2013/08/01/waterfront/</guid>
+        <link>http://localhost:4000/work/2013/08/01/waterfront/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2013/08/01/waterfront/</guid>
         
         
         <category>work</category>
@@ -423,8 +455,8 @@
 &lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
 </description>
         <pubDate>Sat, 01 Sep 2012 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2012/09/01/old-mutual/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2012/09/01/old-mutual/</guid>
+        <link>http://localhost:4000/work/2012/09/01/old-mutual/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2012/09/01/old-mutual/</guid>
         
         
         <category>work</category>
@@ -469,8 +501,8 @@
 &lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
 </description>
         <pubDate>Fri, 01 Jun 2012 00:00:00 +0200</pubDate>
-        <link>http://kdee.co.za/work/2012/06/01/capitec/</link>
-        <guid isPermaLink="true">http://kdee.co.za/work/2012/06/01/capitec/</guid>
+        <link>http://localhost:4000/work/2012/06/01/capitec/</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2012/06/01/capitec/</guid>
         
         
         <category>work</category>
