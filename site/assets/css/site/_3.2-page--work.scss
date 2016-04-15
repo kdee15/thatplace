@@ -4,11 +4,57 @@
 
 // A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
 
-// A.1.1 LINKS
+.page-work {
+    
+    // A.1.1 LINKS
 
+    .square { 
+    
+        .inner {
+            
+            //@include aspect-ratio (100%, 100%);
+        
+            //.content { @include position (absolute, $baseline); }
+        
+        }
+    
+    }
+    
+    // A.1.1. END
+    
+/*    #tonplaygo {
+        
+        height: 100%;
+        position: relative;
+        
+        .square { background: $ia-red; .inner { @include aspect-ratio (100%, 50%); }}
+        .square { &.big { background: $ia-grey50; .inner { @include aspect-ratio (100%, 100%); }}}
+        
+        #start { position: absolute; top: 0; left: 0; }
+        #end { position: absolute; top: 0; left: 33.33%; }
+        #info { position: absolute; top: 16.67%; left: 0; }
+        
+    }*/
 
-// A.1.1. END
-
+    #tonplaygo { 
+        
+        display: flex; flex-direction: row;
+        
+        .column-1 { display: flex; flex-direction: column; align-items: stretch; flex: 0 1 auto; }
+        .column-2 { display: flex; flex-direction: row; flex-wrap: wrap; flex: 0 1 auto; }
+        
+        .row-1 { display: flex; flex-direction: row; }
+        .row-2 { display: flex; flex-direction: row; }
+    
+        #start  { background: $ia-red; }
+        #end    { background: $ia-red; }
+        #info   { background: $ia-grey50; }
+        
+        .square { flex-basis: 0; flex-grow: 2; }
+        .mobile { flex-basis: 0; flex-grow: 2; align-items: flex-start; img { width: 100%; height: auto; }}
+    
+    }
+    
 // A.1. END -----------------------------------------------------------------------------------------------------------
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -17,7 +63,9 @@
 
 @include media-query(feature) {
 
-    .page-work { #mast { padding-top: 80px; }}
+    #mast { padding-top: 80px; }
+    
+    .square { width: 100%; }
 
 }
 
@@ -27,7 +75,8 @@
 
 @include media-query(mobile) {
 
-    .page-work { #mast { padding-top: 80px; }}
+    #mast { padding-top: 80px; }
+    //.square { width: 50%; }
 
 }
 
@@ -37,7 +86,8 @@
 
 @include media-query(tablet) {
 
-    .page-work { #mast { padding-top: 80px; }}
+    #mast { padding-top: 60px; }
+    //.square { width: 33.33%; }
 
 }
 
@@ -47,7 +97,13 @@
 
 @include media-query(desk) {
 
-    .page-work { #mast { padding-top: 0; }}
+    #mast { padding-top: 0; }
+    
+    #tonplaygo {
+        
+        .column-1 { width: 25%; }
+        .column-2 { width: 75%; }
+    }
 
 }
 
@@ -57,10 +113,16 @@
 
 @include media-query(desk-wide) {
 
-    .page-work { #mast { padding-top: 0; }}
-
+    #mast { padding-top: 0; }
+    
+    #tonplaygo {
+        .column-1 { width: 33.33%; }
+        .column-2 { width: 66.66%; }
+    }
 }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+}
+    
 // END OF FILE ########################################################################################################

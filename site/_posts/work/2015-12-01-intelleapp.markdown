@@ -36,3 +36,6 @@ thumb: 			work/thumbs/intelleapp.png
     </aside>
     
 </section>
+
+
+<div class="wrapper"></div>
