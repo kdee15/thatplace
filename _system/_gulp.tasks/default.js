@@ -1,6 +1,6 @@
-// REGISTER COMPONENTS ================================================================================================
+ // REGISTER COMPONENTS ================================================================================================
 
-var config = require('../../_config.json'),
+var config = require('../_config.json'),
     gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
@@ -9,7 +9,8 @@ var config = require('../../_config.json'),
     gutil = require('gulp-util'),
     concat = require('gulp-concat'),
     jshint = require('gulp-jshint'),
-    stylish = require('jshint-stylish')
+    stylish = require('jshint-stylish'),
+    uglify = require('gulp-uglify')
     ;
 
 // END ================================================================================================================
@@ -19,7 +20,7 @@ var config = require('../../_config.json'),
 // A. VARIABLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 var EXPRESS_PORT = 4200;
-var ROOT = '../' + config.siteSource;
+var ROOT = '../' + config.root;
 var LIVERELOAD_PORT = 35729;
 
 // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -87,20 +88,21 @@ function notifyLivereload(event) {
 
 // GULP TASK [DEVELOPMENT] ============================================================================================
 
-// A. CSS ++++++++++++++++++++++++++++++
+// A. CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 gulp.task('compile-sass', function () {
 
-gulp.src(ROOT + '/assets/css/*.scss')
+gulp.src(ROOT + '/assets/css/stylesheet.scss')
 .pipe(sass({ 
     loadPath: [ROOT + '/assets/css'], 
-    'sourcemap=none': true,
+    //'sourcemap=none': true,
     style: 'expanded'
 })
     .on('error', gutil.log))
-.pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-.pipe(rename({ base : 'styles'}))
-.pipe(gulp.dest(ROOT + '/assets/css/'));
+    .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
+    .pipe(rename({ base : 'styles'}))
+    .pipe(gulp.dest(ROOT + '/assets/css/'))
+    gutil.log(gutil.colors.cyan('++ Built stylesheet.css + stylesheet.css.map'));
 
 });
 
@@ -117,6 +119,7 @@ gulp.task('compile-js', function() {
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(concat('app.js'))
     .pipe(gulp.dest(ROOT + '/assets/js/'))
+    gutil.log(gutil.colors.cyan('++ Built app.js'));
 
 });
 
@@ -142,8 +145,8 @@ gulp.task('default', function () {
         gulp.watch([ROOT + '/*.html',
                     ROOT + '/*/*.html',
                     ROOT + '/**/*/*.html',
-                    ROOT + '/assets/css/*.css',
-                    ROOT + '/assets/js/*.js'],
+                    ROOT + '/assets/css/stylesheet.css',
+                    ROOT + '/assets/js/app.js'],
                     notifyLivereload);
 
         // A.2. Watch SASS Changes
@@ -152,10 +155,34 @@ gulp.task('default', function () {
 
         // A.3. Watch JS Changes
 
-        gulp.watch(ROOT + '/assets/js/**/*', ['compile-js']);
+        gulp.watch(ROOT + '/assets/js/scripts/*', ['compile-js']);
 
     // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 });
+
+// END ================================================================================================================
+
+// GULP TASK [PRODUCTION] =============================================================================================
+
+gulp.task('deploy', function () {
+    
+    // A. MINIFY CSS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        
+    return gulp.src(ROOT + '/assets/css/*.css')
+
+    .pipe(minifycss({compatibility: 'ie8'}))
+    .pipe(gulp.dest(ROOT + '/assets/css/'))
+        
+    // A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+    // B. MINIFY JS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+    
+    // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+});
+
+// END ================================================================================================================
 
 // END OF FILE ========================================================================================================

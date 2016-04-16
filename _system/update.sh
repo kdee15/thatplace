@@ -1,14 +1,14 @@
 echo ""
 echo "===================================================================="
 echo "==                                                                =="
-echo "==    WELCOME TO KONSTRUCT.BOILERPLATE INSTALL SCRIPT!            =="
+echo "==    WELCOME TO KONSTRUCT.BOILERPLATE UPDATE SCRIPT!             =="
 echo "==    --------------------------------------------------------    =="
-echo "==    Let's just go ahead & install it for you first shall we?    =="
+echo "==    Updating the system to be used on another pc.               =="
 echo "==                                                                =="
 echo "===================================================================="
 echo ""
 
-read -p "Is this a brand new project? (Y/N) " -n 1 -r
+read -p "Is this an existing project that you cloned from a repository? (Y/N) " -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
@@ -25,11 +25,11 @@ then
     echo ""
     bower install
     
-    echo "== Step 3: Installing Konstruct..."
+    echo "== Step 3: Updating Konstruct..."
     echo ""
     echo "--------------------------------------------------------------------"
     echo ""
-    gulp install-css
+    gulp update-css
     
     echo "== Step 4: Installing Javascript Components..."
     echo ""
@@ -52,7 +52,7 @@ else
     echo ""
     echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     echo "XX                                                                XX"
-    echo "XX    PLEASE RUN './UPDATE.SH'                                    XX"
+    echo "XX    PLEASE RUN './INSTALL.SH'                                   XX"
     echo "XX    --------------------------------------------------------    XX"
     echo "XX    Please run the update.sh script instead of the install      XX"
     echo "XX    script. You will override everything you've done so far.    XX"
