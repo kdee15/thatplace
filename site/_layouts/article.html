@@ -21,24 +21,17 @@
         
         <section id="mast">
 
-            <!-- C.2.1. INTRO ------------------------------------------------------------------------------------- -->
+            <!-- C.2.1. ARTICLE CONTENT --------------------------------------------------------------------------- -->
 
-            <div class="post">
-
-                <header class="post-header">
-                    <h1 class="post-title">{{ page.title }}</h1>
-                    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-                </header>
-
-                <article class="post-content">
-                    {{ content }}
-                </article>
-
-            </div>
+            {{ content }}
             
             <!-- C.2.1. End --------------------------------------------------------------------------------------- -->
+            
+            <!-- C.2.2. CONTACT DETAILS --------------------------------------------------------------------------- -->
 
             {% include home/contact.html %}
+            
+            <!-- C.2.2. End --------------------------------------------------------------------------------------- -->
 
         </section>
         

@@ -1,0 +1,128 @@
+// 3. PAGE [ 3.2. WORK ]  #############################################################################################
+
+// A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
+
+.page-work {
+    
+    // A.1.1 LINKS
+
+    .square { 
+    
+        .inner {
+            
+            //@include aspect-ratio (100%, 100%);
+        
+            //.content { @include position (absolute, $baseline); }
+        
+        }
+    
+    }
+    
+    // A.1.1. END
+    
+/*    #tonplaygo {
+        
+        height: 100%;
+        position: relative;
+        
+        .square { background: $ia-red; .inner { @include aspect-ratio (100%, 50%); }}
+        .square { &.big { background: $ia-grey50; .inner { @include aspect-ratio (100%, 100%); }}}
+        
+        #start { position: absolute; top: 0; left: 0; }
+        #end { position: absolute; top: 0; left: 33.33%; }
+        #info { position: absolute; top: 16.67%; left: 0; }
+        
+    }*/
+
+    #tonplaygo { 
+        
+        display: flex; flex-direction: row;
+        
+        .column-1 { display: flex; flex-direction: column; align-items: stretch; flex: 0 1 auto; }
+        .column-2 { display: flex; flex-direction: row; flex-wrap: wrap; flex: 0 1 auto; }
+        
+        .row-1 { display: flex; flex-direction: row; }
+        .row-2 { display: flex; flex-direction: row; }
+    
+        #start  { background: $ia-red; }
+        #end    { background: $ia-red; }
+        #info   { background: $ia-grey50; }
+        
+        .square { flex-basis: 0; flex-grow: 2; }
+        .mobile { flex-basis: 0; flex-grow: 2; align-items: flex-start; img { width: 100%; height: auto; }}
+    
+    }
+    
+// A.1. END -----------------------------------------------------------------------------------------------------------
+
+// A. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(feature) {
+
+    #mast { padding-top: 80px; }
+    
+    .square { width: 100%; }
+
+}
+
+// B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(mobile) {
+
+    #mast { padding-top: 80px; }
+    //.square { width: 50%; }
+
+}
+
+// C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(tablet) {
+
+    #mast { padding-top: 60px; }
+    //.square { width: 33.33%; }
+
+}
+
+// D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk) {
+
+    #mast { padding-top: 0; }
+    
+    #tonplaygo {
+        
+        .column-1 { width: 25%; }
+        .column-2 { width: 75%; }
+    }
+
+}
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@include media-query(desk-wide) {
+
+    #mast { padding-top: 0; }
+    
+    #tonplaygo {
+        .column-1 { width: 33.33%; }
+        .column-2 { width: 66.66%; }
+    }
+}
+
+// E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+}
+    
+// END OF FILE ########################################################################################################

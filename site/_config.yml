@@ -4,7 +4,13 @@ email: kirkdaniels@me.com
 description: > # this means to ignore newlines until "baseurl:"
   my portfolio site ... my little corner where i can play and just hang out.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+
+# FOR LIVE PUBLISHING
+url: "http://kdee.co.za" # the base hostname & protocol for your site
+
+# FOR TESTING
+#url: "http://localhost:4000" # the base hostname & protocol for your site
+
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -12,7 +18,7 @@ github_username:  jekyll
 markdown: kramdown
 permalink: pretty
 
-exclude: [README.md, Gruntfile.js, package.json, 'node_modules', '*.esproj']
+exclude: [README.md, package.json,  'node_modules', '*.esproj']
 
 sitemap:
     file: "/sitemap.xml"
@@ -24,3 +30,8 @@ sitemap:
         - "/index.html"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
+    
+# Config
+
+gems:
+  - jekyll-angular    

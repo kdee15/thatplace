@@ -8,81 +8,20 @@
 
     background: $black url(../images/contact/bg-contact.jpg) no-repeat fixed;
     background-size: cover;
-
-    // RESPONSIVE
-    padding: 0 0 40px;
-    // RESPONSIVE
-
-    color: #818181;
+    color: $ia-grey60;
 
     // H.1. Components
 
-    //
+    .section-header { margin-bottom: $baseline-large; }
+    
+    p { color: $ia-grey60; }
 
-    .section-header {
-        
-        margin-bottom: $baseline-large;
-    }
-
-    .figure-map {
-
-        // RESPONSIVE
-        padding: 0 0 60px 0;
-        display: none;
-        // RESPONSIVE
-
-        //
-
-        img {
-            max-width: 100%;
-        }
-
-    }
-
-    .contact-group	{
-
-        text-align: center;
-        color: #D0D0D0;
-
-        .contact-item	{
-            
-            @extend .one-quarter;
-            @extend .mobile--one-whole;
-            @extend .feature--one-whole;
-            
-            // A.1.5. ICON
-
-            .icon {
-
-                @include icon (80px, 80px, $ia-grey10);
-
-                .icon {
-
-                    text-align: center;
-                    border: 2px solid $ia-red;
-                    border-radius: 100%;
-                    padding: $baseline;
-
-                }
-            }
-
-            // A.1.5. END
-
-            margin-bottom: 20px;
-
-            h4 {
-                text-transform: uppercase;
-            }
-
-            span {
-
-                font-size: 0.85em;
-
-            }
-            
-            .mail-me { display: block; color: $ia-red; }
-        }
-
+    .social-media {
+    
+        margin: 0;
+        padding-left: 0;
+        text-align: center!important;
+    
     }
 
 
@@ -95,119 +34,31 @@
 
 // B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(feature) {
-
-    // A.1.1 ABOUT US
-	
-		#section-contact {
-			
-			// RESPONSIVE
-			padding: 0 0 40px;
-			// RESPONSIVE
-			
-			.figure-map {
-			    
-			    // RESPONSIVE
-				padding: 0 0 60px 0;
-				// RESPONSIVE
-				
-			}
-			
-			.contact-group	{
-				
-				.contact-item	{
-					
-					margin-bottom: 20px;
-				}
-					
-			}
-			
-    		// H.1. End			
-		}
-	
-    // A.1.1. END
-    
-}
+@include media-query(feature) { }
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(mobile) {
-
-    // A.1.1 ABOUT US
-
-		#section-contact {
-			
-			// RESPONSIVE
-			padding: 0 0 40px;
-			// RESPONSIVE
-			
-			.figure-map {
-			    
-			    // RESPONSIVE
-				padding: 0 0 60px 0;
-				// RESPONSIVE
-				
-			}
-			
-			.contact-group	{
-				
-				.contact-item	{
-					
-					margin-bottom: 20px;
-				}
-					
-			}
-			
-    		// H.1. End			
-		}
-	
-    // A.1.1. END
-
-}
+@include media-query(mobile) { }
 
 // C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(tablet) {
-
-    // A.1.1 ABOUT US
-
-
-
-    // A.1.1. END
-    
-}
+@include media-query(tablet) { }
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk) {
-
-    // A.1.1 ABOUT US
-
-
-
-    // A.1.1. END
-    
-}
+@include media-query(desk) { }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk-wide) {
-
-    // A.1.1 ABOUT US
-
-
-
-    // A.1.1. END
-    
-}
+@include media-query(desk-wide) { }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
