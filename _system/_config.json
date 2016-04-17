@@ -14,16 +14,6 @@
                 "ionic/release/js/ionic.min.js",
                 "ionic/release/js/ionic-angular.min.js",
                 "angular-ui-router/release/angular-ui-router.js",
-<<<<<<< HEAD
-                "angular-touch/angular-touch.js",
-                "angular-animate/angular-animate.js",
-                "angular-sanitize/angular-sanitize.min.js",
-                "angular-swipe/dist/angular-swipe.min.js",
-                "ionic-ion-horizontal-scroll-cards/ionic.hscrollcards.js",
-                "aos/dist/aos.js"
-
-            ],
-=======
                 "angular-animate/angular-animate.js",
                 "angular-sanitize/angular-sanitize.min.js",
                 "angular-touch/angular-touch.js",
@@ -39,7 +29,6 @@
 
             ],
             
->>>>>>> feature/angular
             "order" : [
                 
                 "modernizr.js",
@@ -49,15 +38,6 @@
                 "ionic-angular.min.js",
                 "angular-ui-router.js",
                 "angular-sanitize.min.js",
-<<<<<<< HEAD
-                "angular-swipe.min.js",
-                "angular-touch.js",
-                "angular-animate.js",
-                "ionic.hscrollcards.js",
-                "aos.js"
-
-            ],
-=======
                 "angular-touch.js",
                 "angular-animate.js",
                 "webcam.min.js",
@@ -74,19 +54,14 @@
 
             ],
             
->>>>>>> feature/angular
             "maps" : [
 
                 "jquery/dist/jquery.min.map",
                 "angular/angular.min.js.map",
                 "angular-touch/angular-touch.min.js.map",
                 "angular-animate/angular-animate.min.js.map",
-<<<<<<< HEAD
-                "angular-sanitize/angular-sanitize.min.map"
-=======
                 "angular-sanitize/angular-sanitize.min.js.map",
                 "angular-scroll/angular-scroll.min.js.map"
->>>>>>> feature/angular
 
             ]
             
@@ -96,17 +71,10 @@
             
             "vendors" : [
 
-<<<<<<< HEAD
-                "normalize.css/normalize.css",
-                "aos/dist/aos.css"
-
-            ],
-=======
                 "normalize.css/normalize.css"
 
             ],
             
->>>>>>> feature/angular
             "konstruct" : [
 
                 "konstruct.config/",
@@ -114,23 +82,13 @@
                 "konstruct.cement/"
 
             ],
-<<<<<<< HEAD
-=======
-            
->>>>>>> feature/angular
+
             "site" : [
 
                 "konstruct.site/"
 
             ]
-<<<<<<< HEAD
-            
-        }
-        
-    }
 
-=======
         }
     }
->>>>>>> feature/angular
 }
