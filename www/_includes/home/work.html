@@ -1,0 +1,38 @@
+<!-- C.2.6. MY WORK -->
+
+<section class="section" id="section-work">
+
+    <!-- C.2.6.1. Page Title -->
+
+    <section class="section-header">
+        <figure class="figure-header icon">{% include icons/logo.html %}</figure>
+        <h2>{ my work }</h2>
+    </section>
+
+    <!-- C.2.6.2. Case Study List -->
+
+    <ul class="work grid">
+
+        {% for post in site.categories['work'] limit:4 %}
+
+        <li class="one-half mobi">
+            <a href="{{ post.url }}" class="image card">
+                <figure class="background">
+                    <img class="bg" src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.title }}" />
+                </figure>
+                <aside class="card__body">
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.description }}</p>
+                </aside>
+            </a>
+        </li>
+
+        {% endfor %}
+
+    </ul>
+
+    <a class="full red button" href="{{ site.url }}/work">VIEW ALL</a>
+
+</section>
+
+<!-- C.2.6. END -->

@@ -54,7 +54,7 @@
 		 * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
 		 * have been set to ‘true’.
 		 */
-		$breakpoint-has-widths: ('mobile', 'tablet', 'desk', 'desk-wide')!default;
+		$breakpoint-has-widths: ('feature', 'mobile', 'tablet', 'desk')!default;
 	
 		/**
 		 * Set the spacing between your grid items.

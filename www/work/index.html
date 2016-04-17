@@ -1,0 +1,30 @@
+---
+
+layout: listing
+title: my work
+description: things i've worked on
+page-class: page-work article-listing
+
+---
+
+<ul class="work grid">
+
+    {% for post in site.categories['work'] %}
+
+        <li class="one-half mobi">
+            <a href="{{ post.url }}" class="image card">
+                <figure class="background">
+                    <img class="bg" src="{{ site.url }}/assets/images/{{ post.thumb }}" alt="{{ post.title }}" />
+                </figure>
+                <aside class="card__body">
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.description }}</p>
+                </aside>
+            </a>
+        </li>
+
+    {% endfor %}
+    
+</ul>
+
+<div class="wrapper"></div>
