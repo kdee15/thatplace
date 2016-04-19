@@ -82,6 +82,7 @@
 
                 a {
 
+                    &.active,
                     &:hover { color: $kd-blueLight; text-decoration: none; background: $kd-grey20; }
                 }
             }

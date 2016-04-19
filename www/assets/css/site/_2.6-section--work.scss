@@ -16,10 +16,18 @@
         
         margin-bottom: $baseline-large;
         
-        .icon { @include icon (100px, 100px, $kd-grey90); }
+        .icon { @include icon (100px, 100px, $white); }
 
         span { border-top: 5px dotted $kd-red; padding: 0 40px; }
+        
+        h2 { color: $white; }
     }
+    
+    .card { &.image { 
+        
+        .card__body { h2 { line-height: normal; height: 50%; vertical-align: middle; } }
+    
+    }}
     
     .button { width: 100px; margin: 0 auto; display: block; text-align: center; }
 
