@@ -18,24 +18,24 @@ thumb: 			work/thumbs/waterfront-1.png
 
         <aside class="square item" id="start">
             <div class="content">
-                <span>AUG</span><br />
-                <span>2015</span>
+                <span>JAN</span><br />
+                <span>2010</span>
             </div>
         </aside>
 
         <aside class="big square item" id="info">
             <div class="content">
-                <h2>Tonplaygo</h2>
-                <h3>Tonplaygo is a free mobile entertainment and gaming platform, built around a tangible connection to fashion and high-tech brands.</h3>
-                <p>Android, iOS App &amp; website.</p>
+                <h2>V&amp;A Waterfront</h2>
+                <h3>Public facing website for the V&amp;A Waterfront.</h3>
+                <p>At that time, this was Airborne's biggest sharepoint implementation.</p>
                 <p><strong>nuts &amp; bolts:</strong></p>
-                <p>AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp</p>
+                <p>Sharepoint 2007, HTML(5), CSS, JQuery</p>
                 <p><strong>my role:</strong></p>
                 <ul>
-                    <li>UI/UX consulting</li>
-                    <li>Development team lead</li>
-                    <li>Frontend development &amp; implementation</li>
-                    <li>Play &amp; App Store submissions</li>
+                    <li>sharepoint CMS developer</li>
+                    <li>Jquery implementation</li>
+                    <li>Customised blog masterpages &amp; implemented blogging module</li>
+                    <li>Support &amp; maintenance</li>
                 </ul>
             </div>    
         </aside>
@@ -43,8 +43,8 @@ thumb: 			work/thumbs/waterfront-1.png
         <aside class="square item" id="end">
             <div class="inner">
                 <div class="content">
-                    <span>PRE</span><br />
-                    <span>SENT</span>
+                    <span>OCT</span><br />
+                    <span>2013</span>
                 </div>
             </div>  
         </aside>

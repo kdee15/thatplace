@@ -18,15 +18,15 @@ thumb: 			work/thumbs/intelleapp.png
 
         <aside class="square item" id="start">
             <div class="content">
-                <span>AUG</span><br />
+                <span>NOV</span><br />
                 <span>2015</span>
             </div>
         </aside>
 
         <aside class="big square item" id="info">
             <div class="content">
-                <h2>Tonplaygo</h2>
-                <h3>Tonplaygo is a free mobile entertainment and gaming platform, built around a tangible connection to fashion and high-tech brands.</h3>
+                <h2>IntelleApp</h2>
+                <h3>STEM content &amp; learning portal for high school students</h3>
                 <p>Android, iOS App &amp; website.</p>
                 <p><strong>nuts &amp; bolts:</strong></p>
                 <p>AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp</p>

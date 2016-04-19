@@ -18,24 +18,23 @@ thumb: 			work/thumbs/navigator-1.png
 
         <aside class="square item" id="start">
             <div class="content">
-                <span>AUG</span><br />
-                <span>2015</span>
+                <span>OCT</span><br />
+                <span>2014</span>
             </div>
         </aside>
 
         <aside class="big square item" id="info">
             <div class="content">
-                <h2>Tonplaygo</h2>
-                <h3>Tonplaygo is a free mobile entertainment and gaming platform, built around a tangible connection to fashion and high-tech brands.</h3>
-                <p>Android, iOS App &amp; website.</p>
+                <h2>Navigator Films</h2>
+                <h3>client public facing website</h3>
+                <p>Public facing website for Navigator Films, a film studio, and production company.</p>
                 <p><strong>nuts &amp; bolts:</strong></p>
-                <p>AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp</p>
+                <p>wordpress, HTML(5), CSS, JQuery, Gulp</p>
                 <p><strong>my role:</strong></p>
                 <ul>
-                    <li>UI/UX consulting</li>
-                    <li>Development team lead</li>
-                    <li>Frontend development &amp; implementation</li>
-                    <li>Play &amp; App Store submissions</li>
+                    <li>Custom wordpress theming</li>
+                    <li>HTML/CSS/JQuery implementation</li>
+                    <li>assisted with UI/UX development</li>
                 </ul>
             </div>    
         </aside>
@@ -43,8 +42,8 @@ thumb: 			work/thumbs/navigator-1.png
         <aside class="square item" id="end">
             <div class="inner">
                 <div class="content">
-                    <span>PRE</span><br />
-                    <span>SENT</span>
+                    <span>JAN</span><br />
+                    <span>2015</span>
                 </div>
             </div>  
         </aside>
