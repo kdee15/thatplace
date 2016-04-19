@@ -38,7 +38,8 @@
 
         <!-- C.1.1. Logo -->
         <figure class="logo" id="siteLogo" />
-            <svg version="1.1" class="icon" id="name" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            <a ng-click="toTheTop()">
+                <svg version="1.1" class="icon" id="name" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 650" style="enable-background:new 0 0 100 650;" xml:space="preserve">
 <g>
 	<path d="M16.7,637.1h34.7l-34.7-35.3v-12l28.1,29.4l41.6-30.5v11.7l-35.2,25.2L62,637.1h24.4v9.3H16.7V637.1z"/>
@@ -72,16 +73,17 @@
 </g>
 </svg>
 
+            </a>
         </figure>
 
         <!-- C.1.2. DESKTOP NAV -->
     
         <nav class="nav">
-            <ul>
-                <li><a class="textLink" href="#section-about">BIO</a></li>
-                <li><a class="textLink" href="#section-work">WORK</a></li>
-                <li><a class="textLink" href="#section-stuff">STUFF</a></li>
-                <li><a class="textLink" href="#section-contact">HELLO</a></li>
+            <ul du-scroll-container="scroll-container">
+                <li><a class="textLink" href="#section-about" du-smooth-scroll du-scrollspy>BIO</a></li>
+                <li><a class="textLink" href="#section-work" du-smooth-scroll du-scrollspy>WORK</a></li>
+                <li><a class="textLink" href="#section-stuff" du-smooth-scroll du-scrollspy>STUFF</a></li>
+                <li><a class="textLink" href="#section-contact" du-smooth-scroll du-scrollspy>HELLO</a></li>
             </ul>
         </nav>
 
@@ -93,8 +95,8 @@
         
         <nav class="nav" id="nav">
             <ul>
-                <li><a class="textLink" href="#section-work">WORK</a></li>
-                <li><a class="textLink" href="#section-contact">HELLO</a></li>
+                <li><a class="textLink" href="#section-work" du-smooth-scroll du-scrollspy>WORK</a></li>
+                <li><a class="textLink" href="#section-contact" du-smooth-scroll du-scrollspy>HELLO</a></li>
             </ul>
         </nav>
         
@@ -193,7 +195,7 @@
 
             <!-- C.2.2. SLIDER AREA ------------------------------------------------------------------------------- -->
 
-            <div class="wrapper">
+            <div class="wrapper" id="scroll-container">
             
                 <!-- C.2.1. WE ARE OBJECTIVE -->
 
@@ -297,7 +299,7 @@
         <li class="one-half mobi">
             <a href="/work/2015/06/01/navigator/" class="image card">
                 <figure class="background">
-                    <img class="bg" src="http://localhost:4000/assets/images/work/thumbs/navigator.png" alt="Navigator Films" />
+                    <img class="bg" src="http://localhost:4000/assets/images/work/thumbs/navigator-1.png" alt="Navigator Films" />
                 </figure>
                 <aside class="card__body">
                     <h2>Navigator Films</h2>

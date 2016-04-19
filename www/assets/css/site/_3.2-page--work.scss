@@ -5,38 +5,8 @@
 // A.1. STRUCTURE -----------------------------------------------------------------------------------------------------
 
 .page-work {
-    
-    // A.1.1 LINKS
 
-    .square { 
-    
-        .inner {
-            
-            //@include aspect-ratio (100%, 100%);
-        
-            //.content { @include position (absolute, $baseline); }
-        
-        }
-    
-    }
-    
-    // A.1.1. END
-    
-/*    #tonplaygo {
-        
-        height: 100%;
-        position: relative;
-        
-        .square { background: $ia-red; .inner { @include aspect-ratio (100%, 50%); }}
-        .square { &.big { background: $ia-grey50; .inner { @include aspect-ratio (100%, 100%); }}}
-        
-        #start { position: absolute; top: 0; left: 0; }
-        #end { position: absolute; top: 0; left: 33.33%; }
-        #info { position: absolute; top: 16.67%; left: 0; }
-        
-    }*/
-
-    #tonplaygo { 
+    .project { 
         
         display: flex; flex-direction: row;
         
@@ -46,13 +16,90 @@
         .row-1 { display: flex; flex-direction: row; }
         .row-2 { display: flex; flex-direction: row; }
     
-        #start  { background: $ia-red; }
-        #end    { background: $ia-red; }
-        #info   { background: $ia-grey50; }
+        #start  { background: $kd-red; }
+        #end    { background: $kd-red; }
+        #info   { background: $kd-grey50; }
         
         .square { flex-basis: 0; flex-grow: 2; }
         .mobile { flex-basis: 0; flex-grow: 2; align-items: flex-start; img { width: 100%; height: auto; }}
-    
+        
+        // A.1.1. CLIENT COLOURS
+        
+        &#tonplaygo { 
+            #start {background: $kd-red; }
+            #end {background: $kd-red; }
+        }
+        
+        &#intelleapp { 
+            #start {background: $kd-blueDark; }
+            #end {background: $kd-yellowMid; }
+        }
+        
+        &#stj { 
+            #start {background: $kd-blueDark; span { color: $white; }}
+            #end {background: $kd-goldDark; }
+        }
+        
+        &#colourworks { 
+            #start {background: $kd-maroon; }
+            #end {background: $kd-cyan; }
+        }
+                
+        &#usb { 
+            #start {background: $kd-olive; }
+            #end {background: $kd-burgundy; span { color: $white; }}
+        }
+                        
+        &#usb-ed { 
+            #start {background: $kd-olive; }
+            #end {background: $kd-burgundy; span { color: $white; }}
+        }
+        
+        &#navigator { 
+            #start {background: $white; }
+            #end {background: $kd-grey90; span { color: $white; }}
+        }
+                
+        &#waterfront { 
+            #start {background: $kd-yellow; }
+            #end {background: $kd-blueNavy; span { color: $white; }}
+        }
+                        
+        &#om { 
+            #start {background: $kd-greenEmerald; span { color: $white; }}
+            #end {background: $kd-greenEver; }
+        }
+                                
+        &#capitec { 
+            #start {background: $kd-maroonDark; span { color: $white; }}
+            #end {background: $kd-blueNavy; span { color: $white; }}
+        }
+                                        
+        &#vlc { 
+            #start {background: $kd-maroonDark; }
+            #end {background: $kd-maroonDark; span { color: $white; }}
+        }
+                                                
+        &#mvbc { 
+            #start {background: $white; }
+            #end {background: $black; span { color: $white; }}
+        }
+        
+        #end { text-align: right;}
+        
+        .square { 
+
+            padding: $baseline-small $baseline; 
+
+            &.big { padding: $baseline; background: $kd-grey50;
+
+                h2 { font-size: $x-large; line-height: normal; padding: 0; margin: 0; }
+                h3 { font-size: $normal; line-height: normal; }
+                p { font-size: $small; line-height: normal; margin-top: $baseline-small; }
+                li { font-size: $small; line-height: normal; }
+
+            }
+        }
     }
     
 // A.1. END -----------------------------------------------------------------------------------------------------------
@@ -99,10 +146,11 @@
 
     #mast { padding-top: 0; }
     
-    #tonplaygo {
+    .project {
         
         .column-1 { width: 25%; }
         .column-2 { width: 75%; }
+        .row-1 { .mobi { width: 50% }}
     }
 
 }
@@ -115,9 +163,11 @@
 
     #mast { padding-top: 0; }
     
-    #tonplaygo {
+    .project {
+        
         .column-1 { width: 33.33%; }
         .column-2 { width: 66.66%; }
+        .row-1 { .mobi { width: 33.33% }}
     }
 }
 

@@ -5,40 +5,133 @@ categories: 	work
 title:  		"MVBC"
 description:	Public facing website of Montana Vikings Basketball Club.
 date:   		2010-01-01
-thumb: 			work/thumbs/mvbc.png
+thumb: 			work/thumbs/mvbc-8.png
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
 
-<section id="mvbc">
+<section class="project" id="mvbc">
 
-    <!--- C.3.1. START DATE SQUARE -->
-    <aside class="square" id="start">
-        <span>AUG</span>
-        <span>2015</span>
+    <!--- C.3.1. Project Details -->
+    
+    <aside class="column-1">
+
+        <aside class="square item" id="start">
+            <div class="content">
+                <span>JAN</span><br />
+                <span>2008</span>
+            </div>
+        </aside>
+
+        <aside class="big square item" id="info">
+            <div class="content">
+                <h2>Montana Vikings</h2>
+                <h3>Online presence of community based basketball club.</h3>
+                <p>responsive website. passion project that has been ongoing since 2008.</p>
+                <p><strong>nuts &amp; bolts:</strong></p>
+                <p>Jekyll, HTML(5), CSS, JQuery, Gulp</p>
+                <p><strong>my role:</strong></p>
+                <ul>
+                    <li>frontend design and conceptualisation</li>
+                    <li>complete site management</li>
+                    <li>HTML/CSS/JQuery implementation</li>
+                </ul>
+            </div>    
+        </aside>
+
+        <aside class="square item" id="end">
+            <div class="inner">
+                <div class="content">
+                    <span>PRE</span><br />
+                    <span>SENT</span>
+                </div>
+            </div>  
+        </aside>
+    
     </aside>
     
-    <aside class="square-big" id="ia-info">
-        <h2>Intelleapp</h2>
-        <h3>STEM content &amp; learning portal for high school students</h3>
-        <p>Android, iOS App &amp; website.</p>
-        <p><strong>nuts &amp; bolts:</strong></p>
-        <p>AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp</p>
-        <p><strong>my role:</strong></p>
-        <ul>
-            <li>UI/UX consulting</li>
-            <li>Development team lead</li>
-            <li>Frontend development &amp; implementation</li>
-            <li>Play &amp; App Store submissions</li>
-        </ul>
-    </aside>
+    <!--- C.3.2. Project Images -->
+    
+    <aside class="column-2">
+    
+        <div class="row-1">
+        
+            <hscroller class="hscroller">
 
-    <!--- C.3.2. END DATE SQUARE -->
-    <aside class="square" id="end">
-        <span>PRE</span>
-        <span>SENT</span>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-1" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-1.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-2" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-2.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-3.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-4" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-4.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-5" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-5.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-6" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-6.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-7" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-7.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-8" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-8.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-6" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-9.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-7" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-10.png" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-8" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-11.png" />
+                    </div>
+                </hcard>
+
+            </hscroller>
+            
+        </div>
+
     </aside>
     
 </section>
 
-<!--- C.3. END ---------------------------------------------------------------------------------------------------- -->
+<!--- C.3. END --------------------------------------------------------------------------------------------------- --> 
+
+<div class="wrapper"></div>

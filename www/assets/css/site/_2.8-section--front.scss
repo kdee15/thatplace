@@ -58,7 +58,7 @@
 				
 				//A.1.4. logo
 				
-				.figure-logo { @include icon (200px, 150px, $ia-blueLight); }
+				.figure-logo { @include icon (200px, 150px, $kd-blueLight); }
             
     		// A.1. End
     		
@@ -87,7 +87,7 @@
 				
 				//A.1.4. logo
 				
-				.figure-logo { @include icon (200px, 150px, $ia-blueLight); padding-left: $baseline; }
+				.figure-logo { @include icon (200px, 150px, $kd-blueLight); padding-left: $baseline; }
 				
 						   		
     		// A.1. End
@@ -105,7 +105,7 @@
 
     .section-home {
         
-        .figure-logo { @include icon (300px, 230px, $ia-blueLight); padding-left: $baseline; }   
+        .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
         
     }
 }
@@ -118,7 +118,7 @@
 
     .section-home {
         
-        .figure-logo { @include icon (300px, 230px, $ia-blueLight); padding-left: $baseline; }   
+        .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
         
     }
 }
@@ -131,7 +131,7 @@
 
     .section-home {
         
-        .figure-logo { @include icon (300px, 230px, $ia-blueLight); padding-left: $baseline; }   
+        .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
         
     }
 }

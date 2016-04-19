@@ -10,7 +10,7 @@
 
 #section-about {
 
-    background: $ia-grey20;
+    background: $kd-grey20;
     background-size: cover;
 
     // A.2.1 Components
@@ -21,13 +21,13 @@
 
         h2 {
             
-            color: $ia-blueLight;
+            color: $kd-blueLight;
             margin: 0 0 35px 0;
             line-height: normal;
             
         }
 
-        p { color: $ia-grey60; }					
+        p { color: $kd-grey60; }					
     }
 
     //B.1.2. Objective Icon
@@ -35,7 +35,7 @@
     .icon {
         
         text-align: center;
-        border: 2px solid $ia-red;
+        border: 2px solid $kd-red;
         border-radius: 100%;
         
     }

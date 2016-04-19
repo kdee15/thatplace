@@ -6,17 +6,19 @@
 
         <!-- C.1.1. Logo -->
         <figure class="logo" id="siteLogo" />
-            {% include icons/name.html %}
+            <a ng-click="toTheTop()">
+                {% include icons/name.html %}
+            </a>
         </figure>
 
         <!-- C.1.2. DESKTOP NAV -->
     
         <nav class="nav">
-            <ul>
-                <li><a class="textLink" href="#section-about">BIO</a></li>
-                <li><a class="textLink" href="#section-work">WORK</a></li>
-                <li><a class="textLink" href="#section-stuff">STUFF</a></li>
-                <li><a class="textLink" href="#section-contact">HELLO</a></li>
+            <ul du-scroll-container="scroll-container">
+                <li><a class="textLink" href="#section-about" du-smooth-scroll du-scrollspy>BIO</a></li>
+                <li><a class="textLink" href="#section-work" du-smooth-scroll du-scrollspy>WORK</a></li>
+                <li><a class="textLink" href="#section-stuff" du-smooth-scroll du-scrollspy>STUFF</a></li>
+                <li><a class="textLink" href="#section-contact" du-smooth-scroll du-scrollspy>HELLO</a></li>
             </ul>
         </nav>
 
@@ -28,8 +30,8 @@
         
         <nav class="nav" id="nav">
             <ul>
-                <li><a class="textLink" href="#section-work">WORK</a></li>
-                <li><a class="textLink" href="#section-contact">HELLO</a></li>
+                <li><a class="textLink" href="#section-work" du-smooth-scroll du-scrollspy>WORK</a></li>
+                <li><a class="textLink" href="#section-contact" du-smooth-scroll du-scrollspy>HELLO</a></li>
             </ul>
         </nav>
         

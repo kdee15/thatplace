@@ -6,7 +6,7 @@
 	
 #section-work {
 
-    background: $ia-blueDark;
+    background: $kd-blueDark;
 
     // F.1. Components
 
@@ -16,9 +16,9 @@
         
         margin-bottom: $baseline-large;
         
-        .icon { @include icon (100px, 100px, $ia-grey90); }
+        .icon { @include icon (100px, 100px, $kd-grey90); }
 
-        span { border-top: 5px dotted $ia-red; padding: 0 40px; }
+        span { border-top: 5px dotted $kd-red; padding: 0 40px; }
     }
     
     .button { width: 100px; margin: 0 auto; display: block; text-align: center; }

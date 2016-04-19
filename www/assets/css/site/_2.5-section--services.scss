@@ -15,7 +15,7 @@
     .section-header {
 
         h2 {
-            color: $ia-grey40;
+            color: $kd-grey40;
             // RESPONSIVE
             margin-bottom: $baseline-large;
             // RESPONSIVE
@@ -61,12 +61,12 @@
         
         .icon {
             
-            @include icon (80px, 80px, $ia-grey10);
+            @include icon (80px, 80px, $kd-grey10);
             
             .icon {
 
                 text-align: center;
-                border: 2px solid $ia-red;
+                border: 2px solid $kd-red;
                 border-radius: 100%;
                 padding: $baseline;
                 

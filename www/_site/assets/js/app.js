@@ -78,6 +78,7 @@ var app = angular.module('app', [
     'ionic.contrib.ui.hscrollcards',
     'videosharing-embed',
     'ngVideoPreview',
+    'duScroll',
     'globalController'
 
 ]);
@@ -180,6 +181,27 @@ globalController.controller(
                 console.log('I am a phone, and my width is: ' + screen);
 
                 // B.2. END -------------------------------------------------------------------------------------------
+                
+                // B.3. END -------------------------------------------------------------------------------------------
+                
+                $scope.toTheTop = function() {
+                  $document.scrollTopAnimated(0, 1000).then(function() {
+                    console && console.log('You just scrolled to the top!');
+                  });
+                }
+                
+                // B.3. END -------------------------------------------------------------------------------------------
+                
+                // B.4. DATA ------------------------------------------------------------------------------------------
+                
+                // B.3.2. TONPLAYGO
+
+                 $http.get('data/tpg.txt').success(function (data)
+                 {
+                     $scope.tpgs = data;
+                 });
+
+                // B.4. END -------------------------------------------------------------------------------------------
                 
             }
         ]
