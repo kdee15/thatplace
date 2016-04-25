@@ -24,7 +24,7 @@ html, body {
     width: 1200px;
     margin: 0 auto; } }
 
-.grid, .tabs .tabs__header, .modal__grid, #section-about .attributes-group {
+.grid, .tabs .tabs__header, .modal__grid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@ html, body {
   margin: 0;
   padding: 0; }
 
-.grid__item, .grid .one-whole, .tabs .tabs__header .one-whole, .modal__grid .one-whole, #section-about .attributes-group .one-whole, .grid .two-quarters, .tabs .tabs__header .two-quarters, .modal__grid .two-quarters, #section-about .attributes-group .two-quarters, .grid .three-sixths, .tabs .tabs__header .three-sixths, .modal__grid .three-sixths, #section-about .attributes-group .three-sixths, .grid .four-eighths, .tabs .tabs__header .four-eighths, .modal__grid .four-eighths, #section-about .attributes-group .four-eighths, .grid .five-tenths, .tabs .tabs__header .five-tenths, .modal__grid .five-tenths, #section-about .attributes-group .five-tenths, .grid .six-twelfths, .tabs .tabs__header .six-twelfths, .modal__grid .six-twelfths, #section-about .attributes-group .six-twelfths, .grid .one-half, .tabs .tabs__header .one-half, .modal__grid .one-half, #section-about .attributes-group .one-half, .tabs .tabs__header li, #section-about .attributes-group .tabs .tabs__header li, .tabs .tabs__header #section-about .attributes-group li, .grid #section-stuff .services-group .services-item, #section-stuff .services-group .grid .services-item, .tabs .tabs__header #section-stuff .services-group .services-item, #section-stuff .services-group .tabs .tabs__header .services-item, .modal__grid #section-stuff .services-group .services-item, #section-stuff .services-group .modal__grid .services-item, #section-about .attributes-group #section-stuff .services-group .services-item, #section-stuff .services-group #section-about .attributes-group .services-item, .grid .two-sixths, .tabs .tabs__header .two-sixths, .modal__grid .two-sixths, #section-about .attributes-group .two-sixths, .grid .four-twelfths, .tabs .tabs__header .four-twelfths, .modal__grid .four-twelfths, #section-about .attributes-group .four-twelfths, .grid .one-third, .tabs .tabs__header .one-third, .modal__grid .one-third, #section-about .attributes-group .one-third, #section-about .attributes-group .attributes-item, .grid .two-eighths, .tabs .tabs__header .two-eighths, .modal__grid .two-eighths, #section-about .attributes-group .two-eighths, .grid .three-twelfths, .tabs .tabs__header .three-twelfths, .modal__grid .three-twelfths, #section-about .attributes-group .three-twelfths, .grid .one-quarter, .tabs .tabs__header .one-quarter, .modal__grid .one-quarter, #section-about .attributes-group .one-quarter, .card.long .card__header .lesson-detail {
+.grid__item, .grid .one-whole, .tabs .tabs__header .one-whole, .modal__grid .one-whole, .grid .two-quarters, .tabs .tabs__header .two-quarters, .modal__grid .two-quarters, .grid .three-sixths, .tabs .tabs__header .three-sixths, .modal__grid .three-sixths, .grid .four-eighths, .tabs .tabs__header .four-eighths, .modal__grid .four-eighths, .grid .five-tenths, .tabs .tabs__header .five-tenths, .modal__grid .five-tenths, .grid .six-twelfths, .tabs .tabs__header .six-twelfths, .modal__grid .six-twelfths, .grid .one-half, .tabs .tabs__header .one-half, .modal__grid .one-half, .tabs .tabs__header li, .grid .two-sixths, .tabs .tabs__header .two-sixths, .modal__grid .two-sixths, .grid .four-twelfths, .tabs .tabs__header .four-twelfths, .modal__grid .four-twelfths, .grid .one-third, .tabs .tabs__header .one-third, .modal__grid .one-third, .grid .two-eighths, .tabs .tabs__header .two-eighths, .modal__grid .two-eighths, .grid .three-twelfths, .tabs .tabs__header .three-twelfths, .modal__grid .three-twelfths, .grid .one-quarter, .tabs .tabs__header .one-quarter, .modal__grid .one-quarter, .card.long .card__header .lesson-detail {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -45,30 +45,30 @@ html, body {
 
 .grid__gutter {
   margin-left: -20px; }
-  .grid__gutter .grid__item, .grid__gutter .grid .one-whole, .grid .grid__gutter .one-whole, .grid__gutter .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter .one-whole, .grid__gutter .modal__grid .one-whole, .modal__grid .grid__gutter .one-whole, .grid__gutter #section-about .attributes-group .one-whole, #section-about .attributes-group .grid__gutter .one-whole, .grid__gutter .grid .two-quarters, .grid .grid__gutter .two-quarters, .grid__gutter .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter .two-quarters, .grid__gutter .modal__grid .two-quarters, .modal__grid .grid__gutter .two-quarters, .grid__gutter #section-about .attributes-group .two-quarters, #section-about .attributes-group .grid__gutter .two-quarters, .grid__gutter .grid .three-sixths, .grid .grid__gutter .three-sixths, .grid__gutter .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter .three-sixths, .grid__gutter .modal__grid .three-sixths, .modal__grid .grid__gutter .three-sixths, .grid__gutter #section-about .attributes-group .three-sixths, #section-about .attributes-group .grid__gutter .three-sixths, .grid__gutter .grid .four-eighths, .grid .grid__gutter .four-eighths, .grid__gutter .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter .four-eighths, .grid__gutter .modal__grid .four-eighths, .modal__grid .grid__gutter .four-eighths, .grid__gutter #section-about .attributes-group .four-eighths, #section-about .attributes-group .grid__gutter .four-eighths, .grid__gutter .grid .five-tenths, .grid .grid__gutter .five-tenths, .grid__gutter .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter .five-tenths, .grid__gutter .modal__grid .five-tenths, .modal__grid .grid__gutter .five-tenths, .grid__gutter #section-about .attributes-group .five-tenths, #section-about .attributes-group .grid__gutter .five-tenths, .grid__gutter .grid .six-twelfths, .grid .grid__gutter .six-twelfths, .grid__gutter .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter .six-twelfths, .grid__gutter .modal__grid .six-twelfths, .modal__grid .grid__gutter .six-twelfths, .grid__gutter #section-about .attributes-group .six-twelfths, #section-about .attributes-group .grid__gutter .six-twelfths, .grid__gutter .grid .one-half, .grid .grid__gutter .one-half, .grid__gutter .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter .one-half, .grid__gutter .modal__grid .one-half, .modal__grid .grid__gutter .one-half, .grid__gutter #section-about .attributes-group .one-half, #section-about .attributes-group .grid__gutter .one-half, .grid__gutter .tabs .tabs__header li, .tabs .tabs__header .grid__gutter li, .grid__gutter #section-about .attributes-group .tabs .tabs__header li, #section-about .attributes-group .tabs .tabs__header .grid__gutter li, .grid__gutter .tabs .tabs__header #section-about .attributes-group li, .tabs .tabs__header #section-about .attributes-group .grid__gutter li, .grid__gutter .grid #section-stuff .services-group .services-item, .grid #section-stuff .services-group .grid__gutter .services-item, .grid__gutter #section-stuff .services-group .grid .services-item, #section-stuff .services-group .grid .grid__gutter .services-item, .grid__gutter .tabs .tabs__header #section-stuff .services-group .services-item, .tabs .tabs__header #section-stuff .services-group .grid__gutter .services-item, .grid__gutter #section-stuff .services-group .tabs .tabs__header .services-item, #section-stuff .services-group .tabs .tabs__header .grid__gutter .services-item, .grid__gutter .modal__grid #section-stuff .services-group .services-item, .modal__grid #section-stuff .services-group .grid__gutter .services-item, .grid__gutter #section-stuff .services-group .modal__grid .services-item, #section-stuff .services-group .modal__grid .grid__gutter .services-item, .grid__gutter #section-about .attributes-group #section-stuff .services-group .services-item, #section-about .attributes-group #section-stuff .services-group .grid__gutter .services-item, .grid__gutter #section-stuff .services-group #section-about .attributes-group .services-item, #section-stuff .services-group #section-about .attributes-group .grid__gutter .services-item, .grid__gutter .grid .two-sixths, .grid .grid__gutter .two-sixths, .grid__gutter .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter .two-sixths, .grid__gutter .modal__grid .two-sixths, .modal__grid .grid__gutter .two-sixths, .grid__gutter #section-about .attributes-group .two-sixths, #section-about .attributes-group .grid__gutter .two-sixths, .grid__gutter .grid .four-twelfths, .grid .grid__gutter .four-twelfths, .grid__gutter .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter .four-twelfths, .grid__gutter .modal__grid .four-twelfths, .modal__grid .grid__gutter .four-twelfths, .grid__gutter #section-about .attributes-group .four-twelfths, #section-about .attributes-group .grid__gutter .four-twelfths, .grid__gutter .grid .one-third, .grid .grid__gutter .one-third, .grid__gutter .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter .one-third, .grid__gutter .modal__grid .one-third, .modal__grid .grid__gutter .one-third, .grid__gutter #section-about .attributes-group .one-third, #section-about .attributes-group .grid__gutter .one-third, .grid__gutter #section-about .attributes-group .attributes-item, #section-about .attributes-group .grid__gutter .attributes-item, .grid__gutter .grid .two-eighths, .grid .grid__gutter .two-eighths, .grid__gutter .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter .two-eighths, .grid__gutter .modal__grid .two-eighths, .modal__grid .grid__gutter .two-eighths, .grid__gutter #section-about .attributes-group .two-eighths, #section-about .attributes-group .grid__gutter .two-eighths, .grid__gutter .grid .three-twelfths, .grid .grid__gutter .three-twelfths, .grid__gutter .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter .three-twelfths, .grid__gutter .modal__grid .three-twelfths, .modal__grid .grid__gutter .three-twelfths, .grid__gutter #section-about .attributes-group .three-twelfths, #section-about .attributes-group .grid__gutter .three-twelfths, .grid__gutter .grid .one-quarter, .grid .grid__gutter .one-quarter, .grid__gutter .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter .one-quarter, .grid__gutter .modal__grid .one-quarter, .modal__grid .grid__gutter .one-quarter, .grid__gutter #section-about .attributes-group .one-quarter, #section-about .attributes-group .grid__gutter .one-quarter, .grid__gutter .card.long .card__header .lesson-detail, .card.long .card__header .grid__gutter .lesson-detail {
+  .grid__gutter .grid__item, .grid__gutter .grid .one-whole, .grid .grid__gutter .one-whole, .grid__gutter .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter .one-whole, .grid__gutter .modal__grid .one-whole, .modal__grid .grid__gutter .one-whole, .grid__gutter .grid .two-quarters, .grid .grid__gutter .two-quarters, .grid__gutter .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter .two-quarters, .grid__gutter .modal__grid .two-quarters, .modal__grid .grid__gutter .two-quarters, .grid__gutter .grid .three-sixths, .grid .grid__gutter .three-sixths, .grid__gutter .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter .three-sixths, .grid__gutter .modal__grid .three-sixths, .modal__grid .grid__gutter .three-sixths, .grid__gutter .grid .four-eighths, .grid .grid__gutter .four-eighths, .grid__gutter .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter .four-eighths, .grid__gutter .modal__grid .four-eighths, .modal__grid .grid__gutter .four-eighths, .grid__gutter .grid .five-tenths, .grid .grid__gutter .five-tenths, .grid__gutter .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter .five-tenths, .grid__gutter .modal__grid .five-tenths, .modal__grid .grid__gutter .five-tenths, .grid__gutter .grid .six-twelfths, .grid .grid__gutter .six-twelfths, .grid__gutter .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter .six-twelfths, .grid__gutter .modal__grid .six-twelfths, .modal__grid .grid__gutter .six-twelfths, .grid__gutter .grid .one-half, .grid .grid__gutter .one-half, .grid__gutter .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter .one-half, .grid__gutter .modal__grid .one-half, .modal__grid .grid__gutter .one-half, .grid__gutter .tabs .tabs__header li, .tabs .tabs__header .grid__gutter li, .grid__gutter .grid .two-sixths, .grid .grid__gutter .two-sixths, .grid__gutter .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter .two-sixths, .grid__gutter .modal__grid .two-sixths, .modal__grid .grid__gutter .two-sixths, .grid__gutter .grid .four-twelfths, .grid .grid__gutter .four-twelfths, .grid__gutter .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter .four-twelfths, .grid__gutter .modal__grid .four-twelfths, .modal__grid .grid__gutter .four-twelfths, .grid__gutter .grid .one-third, .grid .grid__gutter .one-third, .grid__gutter .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter .one-third, .grid__gutter .modal__grid .one-third, .modal__grid .grid__gutter .one-third, .grid__gutter .grid .two-eighths, .grid .grid__gutter .two-eighths, .grid__gutter .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter .two-eighths, .grid__gutter .modal__grid .two-eighths, .modal__grid .grid__gutter .two-eighths, .grid__gutter .grid .three-twelfths, .grid .grid__gutter .three-twelfths, .grid__gutter .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter .three-twelfths, .grid__gutter .modal__grid .three-twelfths, .modal__grid .grid__gutter .three-twelfths, .grid__gutter .grid .one-quarter, .grid .grid__gutter .one-quarter, .grid__gutter .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter .one-quarter, .grid__gutter .modal__grid .one-quarter, .modal__grid .grid__gutter .one-quarter, .grid__gutter .card.long .card__header .lesson-detail, .card.long .card__header .grid__gutter .lesson-detail {
     padding-left: 20px; }
 
 .grid__gutter-large {
   margin-left: -40px; }
-  .grid__gutter-large .grid__item, .grid__gutter-large .grid .one-whole, .grid .grid__gutter-large .one-whole, .grid__gutter-large .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter-large .one-whole, .grid__gutter-large .modal__grid .one-whole, .modal__grid .grid__gutter-large .one-whole, .grid__gutter-large #section-about .attributes-group .one-whole, #section-about .attributes-group .grid__gutter-large .one-whole, .grid__gutter-large .grid .two-quarters, .grid .grid__gutter-large .two-quarters, .grid__gutter-large .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter-large .two-quarters, .grid__gutter-large .modal__grid .two-quarters, .modal__grid .grid__gutter-large .two-quarters, .grid__gutter-large #section-about .attributes-group .two-quarters, #section-about .attributes-group .grid__gutter-large .two-quarters, .grid__gutter-large .grid .three-sixths, .grid .grid__gutter-large .three-sixths, .grid__gutter-large .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter-large .three-sixths, .grid__gutter-large .modal__grid .three-sixths, .modal__grid .grid__gutter-large .three-sixths, .grid__gutter-large #section-about .attributes-group .three-sixths, #section-about .attributes-group .grid__gutter-large .three-sixths, .grid__gutter-large .grid .four-eighths, .grid .grid__gutter-large .four-eighths, .grid__gutter-large .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter-large .four-eighths, .grid__gutter-large .modal__grid .four-eighths, .modal__grid .grid__gutter-large .four-eighths, .grid__gutter-large #section-about .attributes-group .four-eighths, #section-about .attributes-group .grid__gutter-large .four-eighths, .grid__gutter-large .grid .five-tenths, .grid .grid__gutter-large .five-tenths, .grid__gutter-large .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter-large .five-tenths, .grid__gutter-large .modal__grid .five-tenths, .modal__grid .grid__gutter-large .five-tenths, .grid__gutter-large #section-about .attributes-group .five-tenths, #section-about .attributes-group .grid__gutter-large .five-tenths, .grid__gutter-large .grid .six-twelfths, .grid .grid__gutter-large .six-twelfths, .grid__gutter-large .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter-large .six-twelfths, .grid__gutter-large .modal__grid .six-twelfths, .modal__grid .grid__gutter-large .six-twelfths, .grid__gutter-large #section-about .attributes-group .six-twelfths, #section-about .attributes-group .grid__gutter-large .six-twelfths, .grid__gutter-large .grid .one-half, .grid .grid__gutter-large .one-half, .grid__gutter-large .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter-large .one-half, .grid__gutter-large .modal__grid .one-half, .modal__grid .grid__gutter-large .one-half, .grid__gutter-large #section-about .attributes-group .one-half, #section-about .attributes-group .grid__gutter-large .one-half, .grid__gutter-large .tabs .tabs__header li, .tabs .tabs__header .grid__gutter-large li, .grid__gutter-large #section-about .attributes-group .tabs .tabs__header li, #section-about .attributes-group .tabs .tabs__header .grid__gutter-large li, .grid__gutter-large .tabs .tabs__header #section-about .attributes-group li, .tabs .tabs__header #section-about .attributes-group .grid__gutter-large li, .grid__gutter-large .grid #section-stuff .services-group .services-item, .grid #section-stuff .services-group .grid__gutter-large .services-item, .grid__gutter-large #section-stuff .services-group .grid .services-item, #section-stuff .services-group .grid .grid__gutter-large .services-item, .grid__gutter-large .tabs .tabs__header #section-stuff .services-group .services-item, .tabs .tabs__header #section-stuff .services-group .grid__gutter-large .services-item, .grid__gutter-large #section-stuff .services-group .tabs .tabs__header .services-item, #section-stuff .services-group .tabs .tabs__header .grid__gutter-large .services-item, .grid__gutter-large .modal__grid #section-stuff .services-group .services-item, .modal__grid #section-stuff .services-group .grid__gutter-large .services-item, .grid__gutter-large #section-stuff .services-group .modal__grid .services-item, #section-stuff .services-group .modal__grid .grid__gutter-large .services-item, .grid__gutter-large #section-about .attributes-group #section-stuff .services-group .services-item, #section-about .attributes-group #section-stuff .services-group .grid__gutter-large .services-item, .grid__gutter-large #section-stuff .services-group #section-about .attributes-group .services-item, #section-stuff .services-group #section-about .attributes-group .grid__gutter-large .services-item, .grid__gutter-large .grid .two-sixths, .grid .grid__gutter-large .two-sixths, .grid__gutter-large .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter-large .two-sixths, .grid__gutter-large .modal__grid .two-sixths, .modal__grid .grid__gutter-large .two-sixths, .grid__gutter-large #section-about .attributes-group .two-sixths, #section-about .attributes-group .grid__gutter-large .two-sixths, .grid__gutter-large .grid .four-twelfths, .grid .grid__gutter-large .four-twelfths, .grid__gutter-large .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter-large .four-twelfths, .grid__gutter-large .modal__grid .four-twelfths, .modal__grid .grid__gutter-large .four-twelfths, .grid__gutter-large #section-about .attributes-group .four-twelfths, #section-about .attributes-group .grid__gutter-large .four-twelfths, .grid__gutter-large .grid .one-third, .grid .grid__gutter-large .one-third, .grid__gutter-large .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter-large .one-third, .grid__gutter-large .modal__grid .one-third, .modal__grid .grid__gutter-large .one-third, .grid__gutter-large #section-about .attributes-group .one-third, #section-about .attributes-group .grid__gutter-large .one-third, .grid__gutter-large #section-about .attributes-group .attributes-item, #section-about .attributes-group .grid__gutter-large .attributes-item, .grid__gutter-large .grid .two-eighths, .grid .grid__gutter-large .two-eighths, .grid__gutter-large .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter-large .two-eighths, .grid__gutter-large .modal__grid .two-eighths, .modal__grid .grid__gutter-large .two-eighths, .grid__gutter-large #section-about .attributes-group .two-eighths, #section-about .attributes-group .grid__gutter-large .two-eighths, .grid__gutter-large .grid .three-twelfths, .grid .grid__gutter-large .three-twelfths, .grid__gutter-large .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter-large .three-twelfths, .grid__gutter-large .modal__grid .three-twelfths, .modal__grid .grid__gutter-large .three-twelfths, .grid__gutter-large #section-about .attributes-group .three-twelfths, #section-about .attributes-group .grid__gutter-large .three-twelfths, .grid__gutter-large .grid .one-quarter, .grid .grid__gutter-large .one-quarter, .grid__gutter-large .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter-large .one-quarter, .grid__gutter-large .modal__grid .one-quarter, .modal__grid .grid__gutter-large .one-quarter, .grid__gutter-large #section-about .attributes-group .one-quarter, #section-about .attributes-group .grid__gutter-large .one-quarter, .grid__gutter-large .card.long .card__header .lesson-detail, .card.long .card__header .grid__gutter-large .lesson-detail {
+  .grid__gutter-large .grid__item, .grid__gutter-large .grid .one-whole, .grid .grid__gutter-large .one-whole, .grid__gutter-large .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter-large .one-whole, .grid__gutter-large .modal__grid .one-whole, .modal__grid .grid__gutter-large .one-whole, .grid__gutter-large .grid .two-quarters, .grid .grid__gutter-large .two-quarters, .grid__gutter-large .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter-large .two-quarters, .grid__gutter-large .modal__grid .two-quarters, .modal__grid .grid__gutter-large .two-quarters, .grid__gutter-large .grid .three-sixths, .grid .grid__gutter-large .three-sixths, .grid__gutter-large .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter-large .three-sixths, .grid__gutter-large .modal__grid .three-sixths, .modal__grid .grid__gutter-large .three-sixths, .grid__gutter-large .grid .four-eighths, .grid .grid__gutter-large .four-eighths, .grid__gutter-large .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter-large .four-eighths, .grid__gutter-large .modal__grid .four-eighths, .modal__grid .grid__gutter-large .four-eighths, .grid__gutter-large .grid .five-tenths, .grid .grid__gutter-large .five-tenths, .grid__gutter-large .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter-large .five-tenths, .grid__gutter-large .modal__grid .five-tenths, .modal__grid .grid__gutter-large .five-tenths, .grid__gutter-large .grid .six-twelfths, .grid .grid__gutter-large .six-twelfths, .grid__gutter-large .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter-large .six-twelfths, .grid__gutter-large .modal__grid .six-twelfths, .modal__grid .grid__gutter-large .six-twelfths, .grid__gutter-large .grid .one-half, .grid .grid__gutter-large .one-half, .grid__gutter-large .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter-large .one-half, .grid__gutter-large .modal__grid .one-half, .modal__grid .grid__gutter-large .one-half, .grid__gutter-large .tabs .tabs__header li, .tabs .tabs__header .grid__gutter-large li, .grid__gutter-large .grid .two-sixths, .grid .grid__gutter-large .two-sixths, .grid__gutter-large .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter-large .two-sixths, .grid__gutter-large .modal__grid .two-sixths, .modal__grid .grid__gutter-large .two-sixths, .grid__gutter-large .grid .four-twelfths, .grid .grid__gutter-large .four-twelfths, .grid__gutter-large .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter-large .four-twelfths, .grid__gutter-large .modal__grid .four-twelfths, .modal__grid .grid__gutter-large .four-twelfths, .grid__gutter-large .grid .one-third, .grid .grid__gutter-large .one-third, .grid__gutter-large .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter-large .one-third, .grid__gutter-large .modal__grid .one-third, .modal__grid .grid__gutter-large .one-third, .grid__gutter-large .grid .two-eighths, .grid .grid__gutter-large .two-eighths, .grid__gutter-large .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter-large .two-eighths, .grid__gutter-large .modal__grid .two-eighths, .modal__grid .grid__gutter-large .two-eighths, .grid__gutter-large .grid .three-twelfths, .grid .grid__gutter-large .three-twelfths, .grid__gutter-large .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter-large .three-twelfths, .grid__gutter-large .modal__grid .three-twelfths, .modal__grid .grid__gutter-large .three-twelfths, .grid__gutter-large .grid .one-quarter, .grid .grid__gutter-large .one-quarter, .grid__gutter-large .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter-large .one-quarter, .grid__gutter-large .modal__grid .one-quarter, .modal__grid .grid__gutter-large .one-quarter, .grid__gutter-large .card.long .card__header .lesson-detail, .card.long .card__header .grid__gutter-large .lesson-detail {
     padding-left: 40px; }
 
 .grid__gutter-small {
   margin-left: -10px; }
-  .grid__gutter-small .grid__item, .grid__gutter-small .grid .one-whole, .grid .grid__gutter-small .one-whole, .grid__gutter-small .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter-small .one-whole, .grid__gutter-small .modal__grid .one-whole, .modal__grid .grid__gutter-small .one-whole, .grid__gutter-small #section-about .attributes-group .one-whole, #section-about .attributes-group .grid__gutter-small .one-whole, .grid__gutter-small .grid .two-quarters, .grid .grid__gutter-small .two-quarters, .grid__gutter-small .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter-small .two-quarters, .grid__gutter-small .modal__grid .two-quarters, .modal__grid .grid__gutter-small .two-quarters, .grid__gutter-small #section-about .attributes-group .two-quarters, #section-about .attributes-group .grid__gutter-small .two-quarters, .grid__gutter-small .grid .three-sixths, .grid .grid__gutter-small .three-sixths, .grid__gutter-small .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter-small .three-sixths, .grid__gutter-small .modal__grid .three-sixths, .modal__grid .grid__gutter-small .three-sixths, .grid__gutter-small #section-about .attributes-group .three-sixths, #section-about .attributes-group .grid__gutter-small .three-sixths, .grid__gutter-small .grid .four-eighths, .grid .grid__gutter-small .four-eighths, .grid__gutter-small .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter-small .four-eighths, .grid__gutter-small .modal__grid .four-eighths, .modal__grid .grid__gutter-small .four-eighths, .grid__gutter-small #section-about .attributes-group .four-eighths, #section-about .attributes-group .grid__gutter-small .four-eighths, .grid__gutter-small .grid .five-tenths, .grid .grid__gutter-small .five-tenths, .grid__gutter-small .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter-small .five-tenths, .grid__gutter-small .modal__grid .five-tenths, .modal__grid .grid__gutter-small .five-tenths, .grid__gutter-small #section-about .attributes-group .five-tenths, #section-about .attributes-group .grid__gutter-small .five-tenths, .grid__gutter-small .grid .six-twelfths, .grid .grid__gutter-small .six-twelfths, .grid__gutter-small .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter-small .six-twelfths, .grid__gutter-small .modal__grid .six-twelfths, .modal__grid .grid__gutter-small .six-twelfths, .grid__gutter-small #section-about .attributes-group .six-twelfths, #section-about .attributes-group .grid__gutter-small .six-twelfths, .grid__gutter-small .grid .one-half, .grid .grid__gutter-small .one-half, .grid__gutter-small .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter-small .one-half, .grid__gutter-small .modal__grid .one-half, .modal__grid .grid__gutter-small .one-half, .grid__gutter-small #section-about .attributes-group .one-half, #section-about .attributes-group .grid__gutter-small .one-half, .grid__gutter-small .tabs .tabs__header li, .tabs .tabs__header .grid__gutter-small li, .grid__gutter-small #section-about .attributes-group .tabs .tabs__header li, #section-about .attributes-group .tabs .tabs__header .grid__gutter-small li, .grid__gutter-small .tabs .tabs__header #section-about .attributes-group li, .tabs .tabs__header #section-about .attributes-group .grid__gutter-small li, .grid__gutter-small .grid #section-stuff .services-group .services-item, .grid #section-stuff .services-group .grid__gutter-small .services-item, .grid__gutter-small #section-stuff .services-group .grid .services-item, #section-stuff .services-group .grid .grid__gutter-small .services-item, .grid__gutter-small .tabs .tabs__header #section-stuff .services-group .services-item, .tabs .tabs__header #section-stuff .services-group .grid__gutter-small .services-item, .grid__gutter-small #section-stuff .services-group .tabs .tabs__header .services-item, #section-stuff .services-group .tabs .tabs__header .grid__gutter-small .services-item, .grid__gutter-small .modal__grid #section-stuff .services-group .services-item, .modal__grid #section-stuff .services-group .grid__gutter-small .services-item, .grid__gutter-small #section-stuff .services-group .modal__grid .services-item, #section-stuff .services-group .modal__grid .grid__gutter-small .services-item, .grid__gutter-small #section-about .attributes-group #section-stuff .services-group .services-item, #section-about .attributes-group #section-stuff .services-group .grid__gutter-small .services-item, .grid__gutter-small #section-stuff .services-group #section-about .attributes-group .services-item, #section-stuff .services-group #section-about .attributes-group .grid__gutter-small .services-item, .grid__gutter-small .grid .two-sixths, .grid .grid__gutter-small .two-sixths, .grid__gutter-small .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter-small .two-sixths, .grid__gutter-small .modal__grid .two-sixths, .modal__grid .grid__gutter-small .two-sixths, .grid__gutter-small #section-about .attributes-group .two-sixths, #section-about .attributes-group .grid__gutter-small .two-sixths, .grid__gutter-small .grid .four-twelfths, .grid .grid__gutter-small .four-twelfths, .grid__gutter-small .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter-small .four-twelfths, .grid__gutter-small .modal__grid .four-twelfths, .modal__grid .grid__gutter-small .four-twelfths, .grid__gutter-small #section-about .attributes-group .four-twelfths, #section-about .attributes-group .grid__gutter-small .four-twelfths, .grid__gutter-small .grid .one-third, .grid .grid__gutter-small .one-third, .grid__gutter-small .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter-small .one-third, .grid__gutter-small .modal__grid .one-third, .modal__grid .grid__gutter-small .one-third, .grid__gutter-small #section-about .attributes-group .one-third, #section-about .attributes-group .grid__gutter-small .one-third, .grid__gutter-small #section-about .attributes-group .attributes-item, #section-about .attributes-group .grid__gutter-small .attributes-item, .grid__gutter-small .grid .two-eighths, .grid .grid__gutter-small .two-eighths, .grid__gutter-small .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter-small .two-eighths, .grid__gutter-small .modal__grid .two-eighths, .modal__grid .grid__gutter-small .two-eighths, .grid__gutter-small #section-about .attributes-group .two-eighths, #section-about .attributes-group .grid__gutter-small .two-eighths, .grid__gutter-small .grid .three-twelfths, .grid .grid__gutter-small .three-twelfths, .grid__gutter-small .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter-small .three-twelfths, .grid__gutter-small .modal__grid .three-twelfths, .modal__grid .grid__gutter-small .three-twelfths, .grid__gutter-small #section-about .attributes-group .three-twelfths, #section-about .attributes-group .grid__gutter-small .three-twelfths, .grid__gutter-small .grid .one-quarter, .grid .grid__gutter-small .one-quarter, .grid__gutter-small .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter-small .one-quarter, .grid__gutter-small .modal__grid .one-quarter, .modal__grid .grid__gutter-small .one-quarter, .grid__gutter-small #section-about .attributes-group .one-quarter, #section-about .attributes-group .grid__gutter-small .one-quarter, .grid__gutter-small .card.long .card__header .lesson-detail, .card.long .card__header .grid__gutter-small .lesson-detail {
+  .grid__gutter-small .grid__item, .grid__gutter-small .grid .one-whole, .grid .grid__gutter-small .one-whole, .grid__gutter-small .tabs .tabs__header .one-whole, .tabs .tabs__header .grid__gutter-small .one-whole, .grid__gutter-small .modal__grid .one-whole, .modal__grid .grid__gutter-small .one-whole, .grid__gutter-small .grid .two-quarters, .grid .grid__gutter-small .two-quarters, .grid__gutter-small .tabs .tabs__header .two-quarters, .tabs .tabs__header .grid__gutter-small .two-quarters, .grid__gutter-small .modal__grid .two-quarters, .modal__grid .grid__gutter-small .two-quarters, .grid__gutter-small .grid .three-sixths, .grid .grid__gutter-small .three-sixths, .grid__gutter-small .tabs .tabs__header .three-sixths, .tabs .tabs__header .grid__gutter-small .three-sixths, .grid__gutter-small .modal__grid .three-sixths, .modal__grid .grid__gutter-small .three-sixths, .grid__gutter-small .grid .four-eighths, .grid .grid__gutter-small .four-eighths, .grid__gutter-small .tabs .tabs__header .four-eighths, .tabs .tabs__header .grid__gutter-small .four-eighths, .grid__gutter-small .modal__grid .four-eighths, .modal__grid .grid__gutter-small .four-eighths, .grid__gutter-small .grid .five-tenths, .grid .grid__gutter-small .five-tenths, .grid__gutter-small .tabs .tabs__header .five-tenths, .tabs .tabs__header .grid__gutter-small .five-tenths, .grid__gutter-small .modal__grid .five-tenths, .modal__grid .grid__gutter-small .five-tenths, .grid__gutter-small .grid .six-twelfths, .grid .grid__gutter-small .six-twelfths, .grid__gutter-small .tabs .tabs__header .six-twelfths, .tabs .tabs__header .grid__gutter-small .six-twelfths, .grid__gutter-small .modal__grid .six-twelfths, .modal__grid .grid__gutter-small .six-twelfths, .grid__gutter-small .grid .one-half, .grid .grid__gutter-small .one-half, .grid__gutter-small .tabs .tabs__header .one-half, .tabs .tabs__header .grid__gutter-small .one-half, .grid__gutter-small .modal__grid .one-half, .modal__grid .grid__gutter-small .one-half, .grid__gutter-small .tabs .tabs__header li, .tabs .tabs__header .grid__gutter-small li, .grid__gutter-small .grid .two-sixths, .grid .grid__gutter-small .two-sixths, .grid__gutter-small .tabs .tabs__header .two-sixths, .tabs .tabs__header .grid__gutter-small .two-sixths, .grid__gutter-small .modal__grid .two-sixths, .modal__grid .grid__gutter-small .two-sixths, .grid__gutter-small .grid .four-twelfths, .grid .grid__gutter-small .four-twelfths, .grid__gutter-small .tabs .tabs__header .four-twelfths, .tabs .tabs__header .grid__gutter-small .four-twelfths, .grid__gutter-small .modal__grid .four-twelfths, .modal__grid .grid__gutter-small .four-twelfths, .grid__gutter-small .grid .one-third, .grid .grid__gutter-small .one-third, .grid__gutter-small .tabs .tabs__header .one-third, .tabs .tabs__header .grid__gutter-small .one-third, .grid__gutter-small .modal__grid .one-third, .modal__grid .grid__gutter-small .one-third, .grid__gutter-small .grid .two-eighths, .grid .grid__gutter-small .two-eighths, .grid__gutter-small .tabs .tabs__header .two-eighths, .tabs .tabs__header .grid__gutter-small .two-eighths, .grid__gutter-small .modal__grid .two-eighths, .modal__grid .grid__gutter-small .two-eighths, .grid__gutter-small .grid .three-twelfths, .grid .grid__gutter-small .three-twelfths, .grid__gutter-small .tabs .tabs__header .three-twelfths, .tabs .tabs__header .grid__gutter-small .three-twelfths, .grid__gutter-small .modal__grid .three-twelfths, .modal__grid .grid__gutter-small .three-twelfths, .grid__gutter-small .grid .one-quarter, .grid .grid__gutter-small .one-quarter, .grid__gutter-small .tabs .tabs__header .one-quarter, .tabs .tabs__header .grid__gutter-small .one-quarter, .grid__gutter-small .modal__grid .one-quarter, .modal__grid .grid__gutter-small .one-quarter, .grid__gutter-small .card.long .card__header .lesson-detail, .card.long .card__header .grid__gutter-small .lesson-detail {
     padding-left: 10px; }
 
-.one-whole, .grid .one-whole, .tabs .tabs__header .one-whole, .modal__grid .one-whole, #section-about .attributes-group .one-whole {
+.one-whole, .grid .one-whole, .tabs .tabs__header .one-whole, .modal__grid .one-whole {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%; }
 
-.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths, .grid .one-half, .tabs .tabs__header .one-half, .modal__grid .one-half, #section-about .attributes-group .one-half, .tabs .tabs__header li, #section-stuff .services-group .services-item {
+.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths, .grid .one-half, .tabs .tabs__header .one-half, .modal__grid .one-half, .tabs .tabs__header li {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%; }
 
-.one-third, .two-sixths, .four-twelfths, .grid .one-third, .tabs .tabs__header .one-third, .modal__grid .one-third, #section-about .attributes-group .one-third, #section-about .attributes-group .attributes-item {
+.one-third, .two-sixths, .four-twelfths, .grid .one-third, .tabs .tabs__header .one-third, .modal__grid .one-third {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 33.333%;
           flex: 0 0 33.333%; }
@@ -78,7 +78,7 @@ html, body {
       -ms-flex: 0 0 66.666%;
           flex: 0 0 66.666%; }
 
-.one-quarter, .two-eighths, .three-twelfths, .grid .one-quarter, .tabs .tabs__header .one-quarter, .modal__grid .one-quarter, #section-about .attributes-group .one-quarter {
+.one-quarter, .two-eighths, .three-twelfths, .grid .one-quarter, .tabs .tabs__header .one-quarter, .modal__grid .one-quarter {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
           flex: 0 0 25%; }
@@ -174,7 +174,7 @@ html, body {
           flex: 0 0 91.666%; }
 
 @media only screen and (max-width: 320px) {
-  .feature--one-whole, .grid .mobi.two-quarters, .tabs .tabs__header .mobi.two-quarters, .modal__grid .mobi.two-quarters, #section-about .attributes-group .mobi.two-quarters, .grid .mobi.three-sixths, .tabs .tabs__header .mobi.three-sixths, .modal__grid .mobi.three-sixths, #section-about .attributes-group .mobi.three-sixths, .grid .mobi.four-eighths, .tabs .tabs__header .mobi.four-eighths, .modal__grid .mobi.four-eighths, #section-about .attributes-group .mobi.four-eighths, .grid .mobi.five-tenths, .tabs .tabs__header .mobi.five-tenths, .modal__grid .mobi.five-tenths, #section-about .attributes-group .mobi.five-tenths, .grid .mobi.six-twelfths, .tabs .tabs__header .mobi.six-twelfths, .modal__grid .mobi.six-twelfths, #section-about .attributes-group .mobi.six-twelfths, .grid .mobi.one-half, .tabs .tabs__header .mobi.one-half, .modal__grid .mobi.one-half, #section-about .attributes-group .mobi.one-half, .tabs .tabs__header li.mobi, #section-about .attributes-group .tabs .tabs__header li.mobi, .tabs .tabs__header #section-about .attributes-group li.mobi, .grid #section-stuff .services-group .mobi.services-item, #section-stuff .services-group .grid .mobi.services-item, .tabs .tabs__header #section-stuff .services-group .mobi.services-item, #section-stuff .services-group .tabs .tabs__header .mobi.services-item, .modal__grid #section-stuff .services-group .mobi.services-item, #section-stuff .services-group .modal__grid .mobi.services-item, #section-about .attributes-group #section-stuff .services-group .mobi.services-item, #section-stuff .services-group #section-about .attributes-group .mobi.services-item, .grid .mobi.two-sixths, .tabs .tabs__header .mobi.two-sixths, .modal__grid .mobi.two-sixths, #section-about .attributes-group .mobi.two-sixths, .grid .mobi.four-twelfths, .tabs .tabs__header .mobi.four-twelfths, .modal__grid .mobi.four-twelfths, #section-about .attributes-group .mobi.four-twelfths, .grid .mobi.one-third, .tabs .tabs__header .mobi.one-third, .modal__grid .mobi.one-third, #section-about .attributes-group .mobi.one-third, #section-about .attributes-group .mobi.attributes-item, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, .modal__grid .mobi.two-eighths, #section-about .attributes-group .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, .modal__grid .mobi.three-twelfths, #section-about .attributes-group .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, .modal__grid .mobi.one-quarter, #section-about .attributes-group .mobi.one-quarter, .modal__grid .grid-item {
+  .feature--one-whole, .grid .mobi.two-quarters, .tabs .tabs__header .mobi.two-quarters, .modal__grid .mobi.two-quarters, .grid .mobi.three-sixths, .tabs .tabs__header .mobi.three-sixths, .modal__grid .mobi.three-sixths, .grid .mobi.four-eighths, .tabs .tabs__header .mobi.four-eighths, .modal__grid .mobi.four-eighths, .grid .mobi.five-tenths, .tabs .tabs__header .mobi.five-tenths, .modal__grid .mobi.five-tenths, .grid .mobi.six-twelfths, .tabs .tabs__header .mobi.six-twelfths, .modal__grid .mobi.six-twelfths, .grid .mobi.one-half, .tabs .tabs__header .mobi.one-half, .modal__grid .mobi.one-half, .tabs .tabs__header li.mobi, .grid .mobi.two-sixths, .tabs .tabs__header .mobi.two-sixths, .modal__grid .mobi.two-sixths, .grid .mobi.four-twelfths, .tabs .tabs__header .mobi.four-twelfths, .modal__grid .mobi.four-twelfths, .grid .mobi.one-third, .tabs .tabs__header .mobi.one-third, .modal__grid .mobi.one-third, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, .modal__grid .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, .modal__grid .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, .modal__grid .mobi.one-quarter, .modal__grid .grid-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%; }
@@ -268,11 +268,11 @@ html, body {
             flex: 0 0 91.666%; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  .mobile--one-whole, .grid .mobi.two-quarters, .tabs .tabs__header .mobi.two-quarters, .modal__grid .mobi.two-quarters, #section-about .attributes-group .mobi.two-quarters, .grid .mobi.three-sixths, .tabs .tabs__header .mobi.three-sixths, .modal__grid .mobi.three-sixths, #section-about .attributes-group .mobi.three-sixths, .grid .mobi.four-eighths, .tabs .tabs__header .mobi.four-eighths, .modal__grid .mobi.four-eighths, #section-about .attributes-group .mobi.four-eighths, .grid .mobi.five-tenths, .tabs .tabs__header .mobi.five-tenths, .modal__grid .mobi.five-tenths, #section-about .attributes-group .mobi.five-tenths, .grid .mobi.six-twelfths, .tabs .tabs__header .mobi.six-twelfths, .modal__grid .mobi.six-twelfths, #section-about .attributes-group .mobi.six-twelfths, .grid .mobi.one-half, .tabs .tabs__header .mobi.one-half, .modal__grid .mobi.one-half, #section-about .attributes-group .mobi.one-half, .tabs .tabs__header li.mobi, #section-about .attributes-group .tabs .tabs__header li.mobi, .tabs .tabs__header #section-about .attributes-group li.mobi, .grid #section-stuff .services-group .mobi.services-item, #section-stuff .services-group .grid .mobi.services-item, .tabs .tabs__header #section-stuff .services-group .mobi.services-item, #section-stuff .services-group .tabs .tabs__header .mobi.services-item, .modal__grid #section-stuff .services-group .mobi.services-item, #section-stuff .services-group .modal__grid .mobi.services-item, #section-about .attributes-group #section-stuff .services-group .mobi.services-item, #section-stuff .services-group #section-about .attributes-group .mobi.services-item, .grid .mobi.two-sixths, .tabs .tabs__header .mobi.two-sixths, .modal__grid .mobi.two-sixths, #section-about .attributes-group .mobi.two-sixths, .grid .mobi.four-twelfths, .tabs .tabs__header .mobi.four-twelfths, .modal__grid .mobi.four-twelfths, #section-about .attributes-group .mobi.four-twelfths, .grid .mobi.one-third, .tabs .tabs__header .mobi.one-third, .modal__grid .mobi.one-third, #section-about .attributes-group .mobi.one-third, #section-about .attributes-group .mobi.attributes-item, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, .modal__grid .mobi.two-eighths, #section-about .attributes-group .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, .modal__grid .mobi.three-twelfths, #section-about .attributes-group .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, .modal__grid .mobi.one-quarter, #section-about .attributes-group .mobi.one-quarter, .modal__grid .grid-item {
+  .mobile--one-whole, .grid .mobi.two-quarters, .tabs .tabs__header .mobi.two-quarters, .modal__grid .mobi.two-quarters, .grid .mobi.three-sixths, .tabs .tabs__header .mobi.three-sixths, .modal__grid .mobi.three-sixths, .grid .mobi.four-eighths, .tabs .tabs__header .mobi.four-eighths, .modal__grid .mobi.four-eighths, .grid .mobi.five-tenths, .tabs .tabs__header .mobi.five-tenths, .modal__grid .mobi.five-tenths, .grid .mobi.six-twelfths, .tabs .tabs__header .mobi.six-twelfths, .modal__grid .mobi.six-twelfths, .grid .mobi.one-half, .tabs .tabs__header .mobi.one-half, .modal__grid .mobi.one-half, .tabs .tabs__header li.mobi, .grid .mobi.two-sixths, .tabs .tabs__header .mobi.two-sixths, .modal__grid .mobi.two-sixths, .grid .mobi.four-twelfths, .tabs .tabs__header .mobi.four-twelfths, .modal__grid .mobi.four-twelfths, .grid .mobi.one-third, .tabs .tabs__header .mobi.one-third, .modal__grid .mobi.one-third, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, .modal__grid .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, .modal__grid .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, .modal__grid .mobi.one-quarter, .modal__grid .grid-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%; }
-  .mobile--one-half, .mobile--two-quarters, .mobile--three-sixths, .mobile--four-eighths, .mobile--five-tenths, .mobile--six-twelfths, #section-about .attributes-group .attributes-item {
+  .mobile--one-half, .mobile--two-quarters, .mobile--three-sixths, .mobile--four-eighths, .mobile--five-tenths, .mobile--six-twelfths {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%; }
@@ -370,7 +370,7 @@ html, body {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%; }
-  .tablet--one-third, .tablet--two-sixths, .tablet--four-twelfths, #section-stuff .services-group .services-item {
+  .tablet--one-third, .tablet--two-sixths, .tablet--four-twelfths {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333%;
             flex: 0 0 33.333%; }
@@ -460,11 +460,11 @@ html, body {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%; }
-  .desk--one-half, .desk--two-quarters, .desk--three-sixths, .desk--four-eighths, .desk--five-tenths, .desk--six-twelfths, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, .modal__grid .mobi.two-eighths, #section-about .attributes-group .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, .modal__grid .mobi.three-twelfths, #section-about .attributes-group .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, .modal__grid .mobi.one-quarter, #section-about .attributes-group .mobi.one-quarter {
+  .desk--one-half, .desk--two-quarters, .desk--three-sixths, .desk--four-eighths, .desk--five-tenths, .desk--six-twelfths, .grid .mobi.two-eighths, .tabs .tabs__header .mobi.two-eighths, .modal__grid .mobi.two-eighths, .grid .mobi.three-twelfths, .tabs .tabs__header .mobi.three-twelfths, .modal__grid .mobi.three-twelfths, .grid .mobi.one-quarter, .tabs .tabs__header .mobi.one-quarter, .modal__grid .mobi.one-quarter {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%; }
-  .desk--one-third, .desk--two-sixths, .desk--four-twelfths, #section-stuff .services-group .services-item {
+  .desk--one-third, .desk--two-sixths, .desk--four-twelfths {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333%;
             flex: 0 0 33.333%; }
@@ -1022,15 +1022,15 @@ form.inline label {
     color: #099; }
 
 @media only screen and (max-width: 320px) {
-  .grid.half li:first-child a, .tabs .half.tabs__header li:first-child a, .half.modal__grid li:first-child a, #section-about .half.attributes-group li:first-child a {
+  .grid.half li:first-child a, .tabs .half.tabs__header li:first-child a, .half.modal__grid li:first-child a {
     margin-right: 5px; }
-  .grid.half li:last-child a, .tabs .half.tabs__header li:last-child a, .half.modal__grid li:last-child a, #section-about .half.attributes-group li:last-child a {
+  .grid.half li:last-child a, .tabs .half.tabs__header li:last-child a, .half.modal__grid li:last-child a {
     margin-left: 5px; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  .grid.half li:first-child a, .tabs .half.tabs__header li:first-child a, .half.modal__grid li:first-child a, #section-about .half.attributes-group li:first-child a {
+  .grid.half li:first-child a, .tabs .half.tabs__header li:first-child a, .half.modal__grid li:first-child a {
     margin-right: 10px; }
-  .grid.half li:last-child a, .tabs .half.tabs__header li:last-child a, .half.modal__grid li:last-child a, #section-about .half.attributes-group li:last-child a {
+  .grid.half li:last-child a, .tabs .half.tabs__header li:last-child a, .half.modal__grid li:last-child a {
     margin-left: 10px; } }
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
@@ -1524,7 +1524,8 @@ a {
       display: block; }
       .social-media li a .icon {
         margin: 0;
-        padding: 0; }
+        padding: 0;
+        background: #4A90E2; }
         .social-media li a .icon svg {
           width: 50px;
           height: 50px; }
@@ -1533,6 +1534,8 @@ a {
           .social-media li a .icon svg rect,
           .social-media li a .icon svg path {
             fill: #EEEEEE; }
+      .social-media li a:hover .icon {
+        background: #3A5181; }
 
 .card.image {
   position: relative;
@@ -2092,7 +2095,7 @@ a {
       display: block;
       font-size: 0.625em; }
       #masthead .nav-desk .nav ul li a {
-        color: #000;
+        color: #fff;
         outline: none;
         display: block;
         vertical-align: middle;
@@ -2227,144 +2230,106 @@ a {
     padding: 60px 0; } }
 
 #section-about {
-  background: #DDDDDD;
-  background-size: cover; }
+  background: #DDDDDD; }
   #section-about .section-header h2 {
     color: #4A90E2;
     margin: 0 0 35px 0;
     line-height: normal; }
   #section-about .section-header p {
-    color: #999999; }
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #777777;
+    line-height: normal;
+    text-align: justify; }
   #section-about .icon {
     text-align: center;
     border: 2px solid #FF625F;
     border-radius: 100%; }
-  #section-about .attributes-group {
-    margin-top: 60px;
-    text-align: center;
-    color: #D0D0D0; }
-    #section-about .attributes-group .attributes-item {
-      margin-bottom: 20px; }
-      #section-about .attributes-group .attributes-item h4 {
-        text-transform: uppercase; }
-      #section-about .attributes-group .attributes-item span {
-        color: #929497;
-        font-size: 0.85em; }
-  #section-about .figure-teamBottom {
-    background: url(../images/site/staff-footer.png) top center no-repeat;
-    padding: 30px 0;
-    margin: 60px 0 -60px 0; }
-
-@media only screen and (max-width: 320px) {
-  #section-different {
-    padding: 0 0 40px 0; }
-    #section-different .container {
-      margin: 0 10px; }
-    #section-different .section-header h2 {
-      margin: 0 0 35px 0; }
-    #section-different .attributes-group {
-      margin: 60px auto 0 auto; }
-      #section-different .attributes-group .attributes-item {
-        margin-bottom: 20px; } }
-
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-  #section-different {
-    padding: 0 0 40px 0; }
-    #section-different .container {
-      margin: 0 10px; }
-    #section-different .section-header h2 {
-      margin: 0 0 35px 0; }
-    #section-different .attributes-group {
-      margin: 60px auto 0 auto; }
-      #section-different .attributes-group .attributes-item {
-        margin-bottom: 20px; } }
-
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
-  #section-different .container {
-    margin: 0 10px; } }
-
-@media only screen and (min-width: 1024px) {
-  #section-different .container {
-    margin: 0 auto; } }
-
-@media only screen and (min-width: 1200px) {
-  #section-different .container {
-    margin: 0 auto; } }
-
-#top-services {
-  padding: 55px 0; }
+  @media only screen and (max-width: 320px) {
+    #section-about p {
+      width: 90%;
+      font-size: 0.75em; } }
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    #section-about p {
+      width: 90%;
+      font-size: 1em;
+      text-align: left; } }
+  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    #section-about p {
+      width: 90%;
+      font-size: 1em; } }
+  @media only screen and (min-width: 1024px) {
+    #section-about p {
+      width: 80%;
+      font-size: 1em; } }
+  @media only screen and (min-width: 1200px) {
+    #section-about p {
+      width: 60%;
+      font-size: 1em; } }
 
 #section-stuff {
   background: #000;
   background-size: cover;
-  color: #818181;
-  padding: 0 0 40px; }
-  #section-stuff .section-header h2 {
-    color: #fff;
-    margin-bottom: 80px;
-    line-height: normal; }
-  #section-stuff .section-header p {
-    color: #929497;
-    margin-bottom: 65px; }
-  #section-stuff .figure-servicesTop {
-    margin-top: -60px;
-    padding: 90px 0; }
-  #section-stuff .services-group {
-    text-align: center; }
-    #section-stuff .services-group .icon {
-      margin: 0;
-      padding: 0; }
-      #section-stuff .services-group .icon svg {
-        width: 80px;
-        height: 80px; }
-        #section-stuff .services-group .icon svg polygon,
-        #section-stuff .services-group .icon svg circle,
-        #section-stuff .services-group .icon svg rect,
-        #section-stuff .services-group .icon svg path {
-          fill: #EEEEEE; }
-      #section-stuff .services-group .icon .icon {
-        text-align: center;
-        border: 2px solid #FF625F;
-        border-radius: 100%;
-        padding: 20px; }
-    #section-stuff .services-group .services-item {
-      text-align: center;
-      margin: 20px 0 0 0; }
-      #section-stuff .services-group .services-item h4 {
-        color: #fff; }
-      #section-stuff .services-group .services-item span {
-        font-size: 0.85em;
-        color: #929497; }
-
-@media only screen and (max-width: 320px) {
-  #top-services {
-    padding: 55px 0; }
-  #section-services {
-    padding: 0 0 40px; }
-    #section-services .section-header h2 {
-      margin-bottom: 35px; }
-    #section-services .section-header p {
-      margin-bottom: 65px; }
-    #section-services .figure-servicesTop {
-      margin-top: -60px;
-      padding: 90px 0; }
-    #section-services .services-group .services-item {
-      margin: 20px 0 0 0; } }
-
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-  #top-services {
-    padding: 55px 0; }
-  #section-services {
-    padding: 0 0 40px; }
-    #section-services .section-header h2 {
-      margin-bottom: 35px; }
-    #section-services .section-header p {
-      margin-bottom: 65px; }
-    #section-services .figure-servicesTop {
-      margin-top: -60px;
-      padding: 90px 0; }
-    #section-services .services-group .services-item {
-      margin: 20px 0 0 0; } }
+  color: #818181; }
+  #section-stuff .section-header {
+    margin-bottom: 80px; }
+    #section-stuff .section-header h2 {
+      color: #fff;
+      line-height: normal; }
+  #section-stuff .employees h3 {
+    padding: 0;
+    margin-bottom: 20px; }
+  #section-stuff .employees .career {
+    list-style-type: none;
+    padding: 0; }
+    #section-stuff .employees .career .employee {
+      margin-bottom: 10px; }
+      #section-stuff .employees .career .employee span {
+        display: block; }
+      #section-stuff .employees .career .employee .company {
+        font-size: 1.125em;
+        margin-left: 20px; }
+      #section-stuff .employees .career .employee .role {
+        font-size: 0.75em; }
+      #section-stuff .employees .career .employee .date {
+        font-size: 0.625em;
+        margin-left: 20px; }
+  #section-stuff .history ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    #section-stuff .history ul li {
+      display: inline-block; }
+      #section-stuff .history ul li a {
+        display: block;
+        text-align: center; }
+        #section-stuff .history ul li a span {
+          color: #BBBBBB; }
+  #section-stuff .history .figure-icon {
+    margin: 0;
+    padding: 0;
+    margin: 0; }
+    #section-stuff .history .figure-icon svg {
+      width: 60px;
+      height: 60px; }
+      #section-stuff .history .figure-icon svg polygon,
+      #section-stuff .history .figure-icon svg circle,
+      #section-stuff .history .figure-icon svg rect,
+      #section-stuff .history .figure-icon svg path {
+        fill: #4A90E2; }
+  #section-stuff .history .education {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    #section-stuff .history .education span {
+      display: block; }
+    #section-stuff .history .education .company {
+      font-size: 1.125em;
+      margin-left: 20px; }
+    #section-stuff .history .education .role {
+      font-size: 0.75em; }
+    #section-stuff .history .education .date {
+      font-size: 0.625em;
+      margin-left: 20px; }
 
 #section-work {
   background: #3A5181; }
@@ -2399,18 +2364,105 @@ a {
 #section-contact {
   background: #000 url(../images/contact/bg-contact.jpg) no-repeat fixed;
   background-size: cover;
-  color: #999999; }
+  color: #999999;
+  padding-bottom: 0 !important;
+  text-align: center; }
   #section-contact .section-header {
     margin-bottom: 80px; }
+    #section-contact .section-header .icon {
+      margin: 0;
+      padding: 0; }
+      #section-contact .section-header .icon svg {
+        width: 150px;
+        height: 150px; }
+        #section-contact .section-header .icon svg polygon,
+        #section-contact .section-header .icon svg circle,
+        #section-contact .section-header .icon svg rect,
+        #section-contact .section-header .icon svg path {
+          fill: #fff; }
   #section-contact p {
-    color: #999999; }
+    color: #999999;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  #section-contact h3 {
+    color: #999999;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 80px; }
   #section-contact .social-media {
     margin: 0;
     padding-left: 0;
     text-align: center !important; }
+  #section-contact .linked-in {
+    background: rgba(51, 51, 51, 0.8);
+    padding: 80px 0;
+    margin-top: 80px; }
+    #section-contact .linked-in .logo {
+      margin: 0;
+      padding: 0;
+      margin-left: 10px;
+      vertical-align: middle; }
+      #section-contact .linked-in .logo svg {
+        width: 180px;
+        height: 50px; }
+        #section-contact .linked-in .logo svg polygon,
+        #section-contact .linked-in .logo svg circle,
+        #section-contact .linked-in .logo svg rect,
+        #section-contact .linked-in .logo svg path {
+          fill: #4A90E2; }
+    #section-contact .linked-in p {
+      vertical-align: middle;
+      margin: 0;
+      line-height: 50px;
+      width: auto; }
+  @media only screen and (max-width: 320px) {
+    #section-contact .linked-in .linkedin.logo {
+      display: block; }
+    #section-contact .linked-in .twitter.logo {
+      display: block; }
+    #section-contact .linked-in a {
+      display: block; }
+    #section-contact .linked-in p {
+      display: block; } }
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    #section-contact .linked-in .linkedin.logo {
+      display: block; }
+    #section-contact .linked-in .twitter.logo {
+      display: block; }
+    #section-contact .linked-in a {
+      display: block; }
+    #section-contact .linked-in p {
+      display: block; } }
+  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    #section-contact .linked-in .linkedin.logo {
+      display: block; }
+    #section-contact .linked-in .twitter.logo {
+      display: block; }
+    #section-contact .linked-in a {
+      display: block; }
+    #section-contact .linked-in p {
+      display: block; } }
+  @media only screen and (min-width: 1024px) {
+    #section-contact .linked-in .linkedin.logo {
+      display: inline-block; }
+    #section-contact .linked-in .twitter.logo {
+      display: inline-block; }
+    #section-contact .linked-in a {
+      display: inline-block; }
+    #section-contact .linked-in p {
+      display: inline-block; } }
+  @media only screen and (min-width: 1200px) {
+    #section-contact .linked-in .linkedin.logo {
+      display: inline-block; }
+    #section-contact .linked-in .twitter.logo {
+      display: inline-block; }
+    #section-contact .linked-in a {
+      display: inline-block; }
+    #section-contact .linked-in p {
+      display: inline-block; } }
 
 .section-home {
-  text-align: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -2423,107 +2475,134 @@ a {
         -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
   .section-home .figure-logo {
-    text-align: left;
     margin: 0; }
-  .section-home .section-header {
-    padding-left: 20px;
-    text-align: left; }
-    .section-home .section-header h1, .section-home .section-header h2 {
-      line-height: normal; }
-
-@media only screen and (max-width: 320px) {
-  .section-home .wrap-content {
-    top: 40%; }
-  .section-home h1 {
+  .section-home .section-header h1, .section-home .section-header h2 {
     line-height: normal; }
-  .section-home .section-header {
-    padding: 0; }
-  .section-home .figure-logo {
-    margin: 0;
-    padding: 0; }
-    .section-home .figure-logo svg {
-      width: 200px;
-      height: 150px; }
-      .section-home .figure-logo svg polygon,
-      .section-home .figure-logo svg circle,
-      .section-home .figure-logo svg rect,
-      .section-home .figure-logo svg path {
-        fill: #4A90E2; } }
-
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-  .section-home .wrap-content {
-    top: 40%; }
-  .section-home h1 {
-    line-height: normal; }
-  .section-home .section-header {
-    padding: 0; }
-  .section-home .figure-logo {
-    margin: 0;
-    padding: 0;
-    padding-left: 20px; }
-    .section-home .figure-logo svg {
-      width: 200px;
-      height: 150px; }
-      .section-home .figure-logo svg polygon,
-      .section-home .figure-logo svg circle,
-      .section-home .figure-logo svg rect,
-      .section-home .figure-logo svg path {
-        fill: #4A90E2; } }
-
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
-  .section-home .figure-logo {
-    margin: 0;
-    padding: 0;
-    padding-left: 20px; }
-    .section-home .figure-logo svg {
-      width: 300px;
-      height: 230px; }
-      .section-home .figure-logo svg polygon,
-      .section-home .figure-logo svg circle,
-      .section-home .figure-logo svg rect,
-      .section-home .figure-logo svg path {
-        fill: #4A90E2; } }
-
-@media only screen and (min-width: 1024px) {
-  .section-home .figure-logo {
-    margin: 0;
-    padding: 0;
-    padding-left: 20px; }
-    .section-home .figure-logo svg {
-      width: 300px;
-      height: 230px; }
-      .section-home .figure-logo svg polygon,
-      .section-home .figure-logo svg circle,
-      .section-home .figure-logo svg rect,
-      .section-home .figure-logo svg path {
-        fill: #4A90E2; } }
-
-@media only screen and (min-width: 1200px) {
-  .section-home .figure-logo {
-    margin: 0;
-    padding: 0;
-    padding-left: 20px; }
-    .section-home .figure-logo svg {
-      width: 300px;
-      height: 230px; }
-      .section-home .figure-logo svg polygon,
-      .section-home .figure-logo svg circle,
-      .section-home .figure-logo svg rect,
-      .section-home .figure-logo svg path {
-        fill: #4A90E2; } }
+  .section-home .social-media {
+    margin-top: 20px; }
+  @media only screen and (max-width: 320px) {
+    .section-home .section-home .wrap-content {
+      top: 40%;
+      text-align: center; }
+      .section-home .section-home .wrap-content .social-media {
+        text-align: center;
+        padding: 0; }
+    .section-home .section-home h1 {
+      line-height: normal;
+      font-size: 1.125em; }
+    .section-home .section-home .section-header {
+      padding: 0; }
+      .section-home .section-home .section-header .section-header {
+        text-align: center; }
+    .section-home .section-home .figure-logo {
+      margin: 0;
+      padding: 0; }
+      .section-home .section-home .figure-logo svg {
+        width: 150px;
+        height: 100px; }
+        .section-home .section-home .figure-logo svg polygon,
+        .section-home .section-home .figure-logo svg circle,
+        .section-home .section-home .figure-logo svg rect,
+        .section-home .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    .section-home .wrap-content {
+      top: 40%;
+      text-align: center; }
+      .section-home .wrap-content .social-media {
+        text-align: center;
+        padding: 0; }
+    .section-home h1 {
+      line-height: normal;
+      font-size: 1.7em;
+      margin-bottom: 80px; }
+    .section-home h2 {
+      margin-bottom: 0; }
+    .section-home .section-header {
+      padding: 0; }
+      .section-home .section-header .section-header {
+        text-align: center; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0; }
+      .section-home .figure-logo svg {
+        width: 150px;
+        height: 100px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .section-home .wrap-content {
+      text-align: left; }
+      .section-home .wrap-content .section-header {
+        text-align: left;
+        margin-left: 20px; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0;
+      padding-left: 20px; }
+      .section-home .figure-logo svg {
+        width: 300px;
+        height: 230px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 1024px) {
+    .section-home .wrap-content {
+      text-align: left; }
+      .section-home .wrap-content .section-header {
+        text-align: left;
+        margin-left: 20px; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0;
+      padding-left: 20px; }
+      .section-home .figure-logo svg {
+        width: 300px;
+        height: 230px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
+  @media only screen and (min-width: 1200px) {
+    .section-home .wrap-content {
+      text-align: left; }
+      .section-home .wrap-content .section-header {
+        text-align: left;
+        margin-left: 20px; }
+    .section-home .figure-logo {
+      margin: 0;
+      padding: 0;
+      padding-left: 20px; }
+      .section-home .figure-logo svg {
+        width: 300px;
+        height: 230px; }
+        .section-home .figure-logo svg polygon,
+        .section-home .figure-logo svg circle,
+        .section-home .figure-logo svg rect,
+        .section-home .figure-logo svg path {
+          fill: #4A90E2; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .container {
     padding: 0; } }
 
+.page-work .card__body h2 {
+  line-height: normal;
+  height: 40%; }
+
+.page-work .card__body p {
+  font-size: 0.75em; }
+
 .page-work .project {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+  display: flex; }
   .page-work .project .column-1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2574,8 +2653,8 @@ a {
   .page-work .project #info {
     background: #AAAAAA; }
   .page-work .project .square {
-    -ms-flex-preferred-size: 0;
-        flex-basis: 0;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
     -webkit-box-flex: 2;
         -ms-flex-positive: 2;
             flex-grow: 2; }
@@ -2685,33 +2764,58 @@ a {
 @media only screen and (max-width: 320px) {
   .page-work #mast {
     padding-top: 80px; }
+  .page-work .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   .page-work .square {
     width: 100%; } }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .page-work #mast {
-    padding-top: 80px; } }
+    padding-top: 60px; }
+  .page-work .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   .page-work #mast {
-    padding-top: 60px; } }
+    padding-top: 60px; }
+  .page-work .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 @media only screen and (min-width: 1024px) {
   .page-work #mast {
     padding-top: 0; }
-  .page-work .project .column-1 {
-    width: 25%; }
-  .page-work .project .column-2 {
-    width: 75%; }
-  .page-work .project .row-1 .mobi {
-    width: 50%; } }
+  .page-work .project {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .page-work .project .column-1 {
+      width: 25%; }
+    .page-work .project .column-2 {
+      width: 75%; }
+    .page-work .project .row-1 .mobi {
+      width: 50%; } }
 
 @media only screen and (min-width: 1200px) {
   .page-work #mast {
     padding-top: 0; }
-  .page-work .project .column-1 {
-    width: 33.33%; }
-  .page-work .project .column-2 {
-    width: 66.66%; }
-  .page-work .project .row-1 .mobi {
-    width: 33.33%; } }
+  .page-work .project {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .page-work .project .column-1 {
+      width: 33.33%; }
+    .page-work .project .column-2 {
+      width: 66.66%; }
+    .page-work .project .row-1 .mobi {
+      width: 33.33%; } }

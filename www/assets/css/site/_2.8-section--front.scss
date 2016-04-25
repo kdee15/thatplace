@@ -6,7 +6,6 @@
 
 .section-home {
 
-    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,22 +18,21 @@
 
     //A.1.1. page logo
 
-    .figure-logo { text-align: left; margin: 0; }
+    .figure-logo { margin: 0; }
 
     //A.1.2. page header
 
     .section-header {
-
-        padding-left: $baseline;
-        text-align: left;
-
+        
         h1, h2 { line-height: normal; }
 
     }
+    
+    .social-media { margin-top: $baseline;}
 
     // A.1. End
 
-}    
+ 
 
 // A.1. END -----------------------------------------------------------------------------------------------------------
 
@@ -46,19 +44,23 @@
 
     	.section-home {
     	
-    	    .wrap-content { top: 40%; }
+    	    .wrap-content { top: 40%; text-align: center;
+            
+                .social-media { text-align: center; padding: 0; }
+            
+            }
     	    
-    	    h1 { line-height: normal; }
+    	    h1 { line-height: normal; font-size: $medium; }
     		
     		// A.1. Components
-			
-				//A.1.1. page header
-				
-				.section-header { padding: 0; }
-				
-				//A.1.4. logo
-				
-				.figure-logo { @include icon (200px, 150px, $kd-blueLight); }
+
+            //A.1.1. page header
+
+            .section-header { padding: 0; .section-header { text-align: center; }}
+
+            //A.1.4. logo
+
+            .figure-logo { @include icon (150px, 100px, $kd-blueLight); }
             
     		// A.1. End
     		
@@ -72,28 +74,26 @@
 
 @include media-query(mobile) { 
 
-    	.section-home {
-    	
-    	    .wrap-content { top: 40%; }
-    	    
-    	    h1 { line-height: normal; }
-			
-    		
-    		// A.1. Components
-			
-				//A.1.1. page header
-				
-				.section-header { padding: 0;}
-				
-				//A.1.4. logo
-				
-				.figure-logo { @include icon (200px, 150px, $kd-blueLight); padding-left: $baseline; }
-				
-						   		
-    		// A.1. End
-    		
-    	}  
+    .wrap-content { top: 40%; text-align: center;
 
+        .social-media { text-align: center; padding: 0; }
+
+    }
+
+    h1 { line-height: normal; font-size: $x-large; margin-bottom: $baseline-large; }
+    h2 { margin-bottom: 0; }
+
+    // A.1. Components
+
+    //A.1.1. page header
+
+    .section-header { padding: 0; .section-header { text-align: center; }}
+
+    //A.1.4. logo
+
+    .figure-logo { @include icon (150px, 100px, $kd-blueLight); }
+
+    // A.1. End
 
 }
 
@@ -103,11 +103,9 @@
 
 @include media-query(tablet) {
 
-    .section-home {
+    .wrap-content { text-align: left; .section-header { text-align: left; margin-left: $baseline; }}
+    .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
         
-        .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
-        
-    }
 }
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -115,12 +113,10 @@
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 @include media-query(desk) {
-
-    .section-home {
+    	
+    .wrap-content { text-align: left; .section-header { text-align: left; margin-left: $baseline; }}
+    .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
         
-        .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
-        
-    }
 }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -128,14 +124,14 @@
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 @include media-query(desk-wide) {
-
-    .section-home {
+    	
+    .wrap-content { text-align: left; .section-header { text-align: left; margin-left: $baseline; }}
+    .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
         
-        .figure-logo { @include icon (300px, 230px, $kd-blueLight); padding-left: $baseline; }   
-        
-    }
 }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+}
 
 // END OF FILE ########################################################################################################

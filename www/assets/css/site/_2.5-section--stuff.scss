@@ -3,102 +3,78 @@
 // A. GLOBAL STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // A.1. HOME ----------------------------------------------------------------------------------------------------------
-	
-// E.1. anchor padding to align screen top
-
-#top-services { padding: 55px 0; }
-
-// E.2. containing div elements
 
 #section-stuff {
-
-    .section-header {
-
-        h2 {
-            color: $white;
-            // RESPONSIVE
-            margin-bottom: $baseline-large;
-            // RESPONSIVE
-            line-height: normal;
-        }
-
-        p {
-            color: #929497;
-            // RESPONSIVE
-            margin-bottom: 65px;
-            // RESPONSIVE
-        }					
-    }
-
-    //
-
+    
     background: $black;
     background-size: cover;
     color: #818181;
     
-    // RESPONSIVE
-    padding: 0 0 40px;
-    // RESPONSIVE
-
-    // E.2.1. Components
-
-
-    //
-
-    .figure-servicesTop {
-
-        // RESPONSIVE
-        margin-top: -60px;
-        padding: 90px 0;
-        // RESPONSIVE
-    }			
-
-    //
-
-    .services-group	{
-
-        text-align: center;
+    .section-header {
         
-        .icon {
-            
-            @include icon (80px, 80px, $kd-grey10);
-            
-            .icon {
+        margin-bottom: $baseline-large;
 
-                text-align: center;
-                border: 2px solid $kd-red;
-                border-radius: 100%;
-                padding: $baseline;
-                
-            }
-        }
-
-        .services-item	{
-            
-            @extend .one-half;
-            @extend .tablet--one-third;
-            @extend .desk--one-third;
-            text-align: center;
-
-            // RESPONSIVE
-            margin: 20px 0 0 0;
-            // RESPONSIVE
-
-            h4 {
-                color: $white;
-            }
-
-            span {
-                font-size: 0.85em;
-                color: #929497;
-            }
-
-        }
-
+        h2 {
+            color: $white;
+            line-height: normal;
+        }				
     }
 
+    // A.1.2. Career History
+    
+    
+    .employees {
+        
+        h3 { padding: 0; margin-bottom: $baseline; }
+        
+        .career {
 
-    // E.1. End			
+            list-style-type: none;
+            padding: 0;
+
+            .employee {
+
+                margin-bottom: $baseline-small;
+
+                span { display: block; }
+                .company { font-size: $medium; margin-left: $baseline; }
+                .role { font-size: $small; }
+                .date { font-size: $x-small; margin-left: $baseline; }
+
+            }
+        }
+    }
+    
+    // A.1.2. END
+    
+    // A.1.3. HISTORY (CV/portfolio & education)
+    
+    .history {
+        
+        ul { list-style-type: none; padding: 0; margin: 0; 
+        
+            li { display: inline-block; 
+            
+                a { display: block; text-align: center; span { color: $kd-grey40; }}
+            }
+        }
+    
+        .figure-icon { @include icon (60px, 60px, $kd-blueLight); margin: 0; }
+        
+        .education { margin-top: $baseline; margin-bottom: $baseline-small;
+
+                span { display: block; }
+                .company { font-size: $medium; margin-left: $baseline; }
+                .role { font-size: $small; }
+                .date { font-size: $x-small; margin-left: $baseline; }
+        
+        }
+    
+    }
+    
+    
+    // A.1.3. END
+    
 }
 
 // A.2. END -----------------------------------------------------------------------------------------------------------
@@ -107,182 +83,31 @@
 
 // B. MOBILE STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(feature) {
-	
-		// E.1. anchor padding to align screen top
-		
-		#top-services {
-			padding: 55px 0;	
-		}
-		
-		
-		// E.2. containing div elements
-		
-		#section-services {
-		
-		    .section-header {
-		    	
-		    	h2 {
-		    	    // RESPONSIVE
-		    	    margin-bottom: 35px;
-		    	    // RESPONSIVE
-		    	}
-		    	
-		    	p {
-		    	    // RESPONSIVE
-		    	    margin-bottom: 65px;
-		    	    // RESPONSIVE
-		    	}					
-		    }
-			
-			// RESPONSIVE
-			padding: 0 0 40px;
-			// RESPONSIVE
-			
-			// E.2.1. Components
-			
-			
-			//
-			
-			.figure-servicesTop {
-			
-				// RESPONSIVE
-				margin-top: -60px;
-    			padding: 90px 0;
-    			// RESPONSIVE
-			}			
-			
-			//
-			
-			.services-group	{
-				
-				.services-item	{
-					// RESPONSIVE
-					margin: 20px 0 0 0;
-					// RESPONSIVE
-					
-				}
-					
-			}
-			
-			
-    		// E.1. End			
-		}
-	
-    
-}
+@include media-query(feature) { }
 
 // B. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // C. TABLET STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(mobile) {
-
-	
-		// E.1. anchor padding to align screen top
-		
-		#top-services {
-			padding: 55px 0;	
-		}
-		
-		
-		// E.2. containing div elements
-		
-		#section-services {
-		
-		    .section-header {
-		    	
-		    	h2 {
-		    	    // RESPONSIVE
-		    	    margin-bottom: 35px;
-		    	    // RESPONSIVE
-		    	}
-		    	
-		    	p {
-		    	    // RESPONSIVE
-		    	    margin-bottom: 65px;
-		    	    // RESPONSIVE
-		    	}					
-		    }
-			
-			// RESPONSIVE
-			padding: 0 0 40px;
-			// RESPONSIVE
-			
-			// E.2.1. Components
-			
-			
-			//
-			
-			.figure-servicesTop {
-			
-				// RESPONSIVE
-				margin-top: -60px;
-    			padding: 90px 0;
-    			// RESPONSIVE
-			}			
-			
-			//
-			
-			.services-group	{
-				
-				.services-item	{
-					// RESPONSIVE
-					margin: 20px 0 0 0;
-					// RESPONSIVE
-					
-				}
-					
-			}
-			
-			
-    		// E.1. End			
-		}
-	
-
-}
+@include media-query(mobile) { }
 
 // C. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // D. DESKTOP STYLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(tablet) {
-
-    // A.1.1 ABOUT US
-
-
-
-    // A.1.1. END
-    
-}
+@include media-query(tablet) { }
 
 // D. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk) {
-
-    // A.1.1 ABOUT US
-
-
-
-    // A.1.1. END
-    
-}
+@include media-query(desk) { }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // E. WIDE DESKTOP STYLES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-@include media-query(desk-wide) {
-
-    // A.1.1 ABOUT US
-
-
-
-    // A.1.1. END
-    
-}
+@include media-query(desk-wide) { }
 
 // E. END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
