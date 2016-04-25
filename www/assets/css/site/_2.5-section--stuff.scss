@@ -61,7 +61,9 @@
     
         .figure-icon { @include icon (60px, 60px, $kd-blueLight); margin: 0; }
         
-        .education { margin-top: $baseline; margin-bottom: $baseline-small;
+        .education { margin-top: $baseline-medium;
+            
+            .employee { display: block; margin-bottom: $baseline-small; }
 
                 span { display: block; }
                 .company { font-size: $medium; margin-left: $baseline; }
