@@ -5,7 +5,7 @@ categories: 	work
 title:  		"IntelleApp"
 description:	STEM Portal for high school students
 date:   		2015-12-01
-thumb: 			work/thumbs/intelleapp.png
+thumb: 			work/thumbs/intelleapp.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -61,25 +61,25 @@ thumb: 			work/thumbs/intelleapp.png
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="desk" src="{{ site.url }}/assets/images/work/pics/intelleapp-1.png" />
+                        <img class="desk" src="{{ site.url }}/assets/images/work/pics/intelleapp-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/intelleapp-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/intelleapp-2.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/intelleapp-3.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/intelleapp-3.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-4" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/intelleapp-4.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/intelleapp-4.jpg" />
                     </div>
                 </hcard>
 

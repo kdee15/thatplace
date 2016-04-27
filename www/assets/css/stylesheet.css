@@ -1058,7 +1058,7 @@ html, body, #mast, .section-home, .container {
   height: 100%; }
 
 body {
-  background: url("../images/front/bg-front.png") no-repeat center center fixed;
+  background: url("../images/front/bg-front.jpg") no-repeat center center fixed;
   background-size: cover; }
 
 h4, h6, ul, li, p {
@@ -2479,7 +2479,8 @@ a {
   .section-home .figure-logo {
     margin: 0; }
   .section-home .section-header h1, .section-home .section-header h2 {
-    line-height: normal; }
+    line-height: normal;
+    color: #fff; }
   .section-home .social-media {
     margin-top: 20px; }
   @media only screen and (max-width: 320px) {

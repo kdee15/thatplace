@@ -5,7 +5,7 @@ categories: 	work
 title:  		"USB"
 description:	University of Stellenbosch staff intranet, student intranet, USB public facing website as well as Belpark Campus portal.
 date:   		2014-04-01
-thumb: 			work/thumbs/usb-1.png
+thumb: 			work/thumbs/usb-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -61,19 +61,19 @@ thumb: 			work/thumbs/usb-1.png
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/usb-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/usb-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/usb-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/usb-2.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/usb-3.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/usb-3.jpg" />
                     </div>
                 </hcard>
 

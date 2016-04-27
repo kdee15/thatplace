@@ -5,7 +5,7 @@ categories: 	work
 title:  		"MVBC"
 description:	Public facing website of Montana Vikings Basketball Club.
 date:   		2010-01-01
-thumb: 			work/thumbs/mvbc-8.png
+thumb: 			work/thumbs/mvbc-8.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -60,67 +60,67 @@ thumb: 			work/thumbs/mvbc-8.png
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-2.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-3.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-3.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-4" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-4.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-4.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-5" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-5.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-5.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-6" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-6.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-6.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-7" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-7.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-7.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-8" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-8.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-8.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-6" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-9.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-9.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-7" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-10.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-10.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-8" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-11.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/mvbc-11.jpg" />
                     </div>
                 </hcard>
 

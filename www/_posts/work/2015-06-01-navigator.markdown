@@ -5,7 +5,7 @@ categories: 	work
 title:  		"Navigator Films"
 description:	client public facing website
 date:   		2015-06-01
-thumb: 			work/thumbs/navigator-1.png
+thumb: 			work/thumbs/navigator-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -60,67 +60,67 @@ thumb: 			work/thumbs/navigator-1.png
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-2.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-3.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-3.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-4.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-4.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-5.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-5.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-6.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-6.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-2.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-3.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-3.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-4.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-4.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-5.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-5.jpg" />
                     </div>
                 </hcard>
 

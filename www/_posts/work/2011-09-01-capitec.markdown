@@ -5,7 +5,7 @@ categories: 	work
 title:  		"Capitec"
 description:	Client Relations Management Solution deployed to desktops in Capitec Banks throughout South Africa.
 date:   		2012-06-01
-thumb: 			work/thumbs/capitec-1.png
+thumb: 			work/thumbs/capitec-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -61,13 +61,13 @@ thumb: 			work/thumbs/capitec-1.png
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/capitec-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/capitec-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/capitec-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/capitec-2.jpg" />
                     </div>
                 </hcard>
 

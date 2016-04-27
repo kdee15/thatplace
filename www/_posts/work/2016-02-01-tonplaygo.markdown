@@ -5,7 +5,7 @@ categories: 	work
 title:  		"Tonplaygo"
 description:	Tonplaygo is a free mobile entertainment and gaming platform, built around a tangible connection to fashion and high-tech brands.
 date:   		2016-02-01
-thumb: 			work/thumbs/tonplaygo.png
+thumb: 			work/thumbs/tonplaygo.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -61,49 +61,49 @@ thumb: 			work/thumbs/tonplaygo.png
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-2.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-3.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-3.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-4" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-4.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-4.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-5" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-5.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-5.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-6" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-6.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-6.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-7" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-7.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-7.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-8" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-8.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-8.jpg" />
                     </div>
                     
                 </hcard>

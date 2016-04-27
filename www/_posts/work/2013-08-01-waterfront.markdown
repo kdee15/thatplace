@@ -5,7 +5,7 @@ categories: 	work
 title:  		"V&A Waterfront"
 description:	Public facing website for the V&A Waterfront.
 date:   		2013-08-01
-thumb: 			work/thumbs/waterfront-1.png
+thumb: 			work/thumbs/waterfront-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -61,13 +61,13 @@ thumb: 			work/thumbs/waterfront-1.png
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/waterfront-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/waterfront-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/waterfront-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/waterfront-2.jpg" />
                     </div>
                 </hcard>
 

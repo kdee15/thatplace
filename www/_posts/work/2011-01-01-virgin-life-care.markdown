@@ -5,7 +5,7 @@ categories: 	work
 title:  		"Virgin Life Care"
 description:	Web based wellness management solution. Project developed by Virgin UK for SA market.
 date:   		2012-06-01
-thumb: 			work/thumbs/vlc-1.png
+thumb: 			work/thumbs/vlc-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -60,7 +60,7 @@ thumb: 			work/thumbs/vlc-1.png
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/vlc-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/vlc-1.jpg" />
                     </div>
                 </hcard>
 

@@ -5,7 +5,7 @@ categories: 	work
 title:  		"Colourworks"
 description:	client public facing website
 date:   		2015-07-01
-thumb: 			work/thumbs/colourworks.png
+thumb: 			work/thumbs/colourworks.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
@@ -60,97 +60,97 @@ thumb: 			work/thumbs/colourworks.png
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-1.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-1.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-2.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-2.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-3.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-3.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-4.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-4.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-5.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-5.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-6.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-6.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-7.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-7.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-8.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-8.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-9.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-9.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card mobi">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-10.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-10.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-1" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-11.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-11.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-2" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-12.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-12.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-13.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-13.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-14.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-14.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-15.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-15.jpg" />
                     </div>
                 </hcard>
 
                 <hcard class="hscroller-card">
                     <div id="pic-3" class="mobile">
-                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-16.png" />
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/cw-16.jpg" />
                     </div>
                 </hcard>
 
