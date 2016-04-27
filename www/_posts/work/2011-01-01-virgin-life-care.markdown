@@ -18,7 +18,7 @@ thumb: 			work/thumbs/vlc-1.png
 
         <aside class="square item" id="start">
             <div class="content">
-                <span>JUN</span><br />
+                <span>JUN</span><br /> 
                 <span>2010</span>
             </div>
         </aside>
