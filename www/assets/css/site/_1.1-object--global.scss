@@ -11,7 +11,7 @@ html { font-weight: 300; }
 html, body, #mast, .section-home, .container { height: 100%; }
 
 body {
-    background: url('../images/front/bg-front.png') no-repeat center center fixed;
+    background: url('../images/front/bg-front.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -102,67 +102,12 @@ position: relative;
 
 // A.2. PAGE HEADERS
 .section-header {
-        text-align: center;
-        //padding: 65px 0 0;
-
-        // A.2.1 Page Header Icons
-
-        .figure-header {
-            //margin: 60px auto 0;	
-        }
-
-        // A.2.2 Page Header Trim
-
-        .figure-headerBottom {
-            background: url(../images/team/header-triangle.png) 0 0 repeat-x;
-            //padding: 0 75px;
-        }			
-    }	    
+    
+    text-align: center;
+			
+}	    
 
 // A.2. END
-
-// A.3. GRIDS		
-.grid-group {			
-    @extend .grid;
-    .grid-item {
-        @extend .grid__item;
-
-        img {
-                max-width: 100%;
-            }
-    }
-}
-
-// A.3. END
-
-// A.4. SECTIONS
-
-
-.bob-rollover {
-    background: rgba($black, 0.8);
-    span {
-        border:2px solid white;
-    }
-}
-
-// A.4. END
-
-
-// A.5. HELPER CLASSES
-
-    .active {
-
-        display: inline-block!important;
-
-    }
-
-    .not-active {
-
-        display: none!important;
-
-    }
-
-// A.5. END
 
 
 // A.6. XXX
@@ -171,33 +116,7 @@ position: relative;
 }
 // A.6. END		
 
-
-// A.7. height/aspect ratio constrainer
-
-#bob-fixedSize {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-}
-
-#bob-fixedHeight {
-    padding-top: 50%;
-}
-
-#fixedSize-inner {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: $white;
-}
-
-// A.7. END
-
-
 // A.8. HOVER EFFECT
-
 
 .view {
    width: 100%;

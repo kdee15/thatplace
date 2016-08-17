@@ -37,7 +37,7 @@
             transition: 0.5s;
         
             h2 {
-                background: rgba($black,0.9);
+                background: rgba($black,0.8);
                 margin: 0;
                 padding: $baseline;
                 display: block;
@@ -48,7 +48,7 @@
                 margin: 0;
                 padding: $baseline;
                 display: block;
-                font-size: $small;
+                font-size: $normal;
                 color: $white;
             }
         }

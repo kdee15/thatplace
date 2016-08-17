@@ -23,6 +23,7 @@ var app = angular.module('app', [
     'ionic.contrib.ui.hscrollcards',
     'videosharing-embed',
     'ngVideoPreview',
+    'duScroll',
     'globalController'
 
 ]);

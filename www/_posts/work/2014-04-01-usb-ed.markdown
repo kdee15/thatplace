@@ -5,40 +5,93 @@ categories: 	work
 title:  		"USB-Ed"
 description:	Public facing website for University of Stellenbosch Executive Education, a division of the University of Stellenbosch Business School.
 date:   		2014-04-01
-thumb: 			work/thumbs/intelleapp.png
+thumb: 			work/thumbs/usbed-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
 
-<section id="usb-ed">
+<section class="project" id="usb-ed">
 
-    <!--- C.3.1. START DATE SQUARE -->
-    <aside class="square" id="start">
-        <span>AUG</span>
-        <span>2015</span>
+    <!--- C.3.1. Project Details -->
+    
+    <aside class="column-1">
+
+        <aside class="square item" id="start">
+            <div class="content">
+                <span>OCT</span><br />
+                <span>2012</span>
+            </div>
+        </aside>
+
+        <aside class="big square item" id="info">
+            <div class="content">
+                <h2>University of Stellenbosch</h2>
+                <h3>executive development public facing website</h3>
+                <p>Public facing website for USB-Ed, a division of the University of Stellenbosch Business School</p>
+                <p><strong>nuts &amp; bolts:</strong></p>
+                <p>sharepoint 2010, HTML(5), CSS, JQuery</p>
+                <p><strong>my role:</strong></p>
+                <ul>
+                    <li>UI/UX consulting</li>
+                    <li>visual conceptualisation consulting</li>
+                    <li>lead sharepoint CMS developer</li>
+                    <li>HTML/CSS/JQuery implementation</li>
+                </ul>
+            </div>    
+        </aside>
+
+        <aside class="square item" id="end">
+            <div class="inner">
+                <div class="content">
+                    <span>APR</span><br />
+                    <span>2014</span>
+                </div>
+            </div>  
+        </aside>
+    
     </aside>
     
-    <aside class="square-big" id="ia-info">
-        <h2>Intelleapp</h2>
-        <h3>STEM content &amp; learning portal for high school students</h3>
-        <p>Android, iOS App &amp; website.</p>
-        <p><strong>nuts &amp; bolts:</strong></p>
-        <p>AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp</p>
-        <p><strong>my role:</strong></p>
-        <ul>
-            <li>UI/UX consulting</li>
-            <li>Development team lead</li>
-            <li>Frontend development &amp; implementation</li>
-            <li>Play &amp; App Store submissions</li>
-        </ul>
-    </aside>
+    <!--- C.3.2. Project Images -->
+    
+    <aside class="column-2">
+    
+        <div class="row-1">
+        
+            <hscroller class="hscroller">
 
-    <!--- C.3.2. END DATE SQUARE -->
-    <aside class="square" id="end">
-        <span>PRE</span>
-        <span>SENT</span>
+                <hcard class="hscroller-card">
+                    <div id="pic-1" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/usbed-1.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-2" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/usbed-2.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/usbed-3.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/usbed-4.jpg" />
+                    </div>
+                </hcard>
+
+
+            </hscroller>
+            
+        </div>
+
     </aside>
     
 </section>
 
-<!--- C.3. END ---------------------------------------------------------------------------------------------------- -->
+<!--- C.3. END --------------------------------------------------------------------------------------------------- --> 
+
+<div class="wrapper"></div>

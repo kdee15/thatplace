@@ -1,10 +1,10 @@
 {
-  "name": "intelleapp",
+  "name": "kdee.co.za",
   "version": "1.0.0",
   "authors": [
     "Kirk Daniels"
   ],
-  "description": "intelleapp mobile app.",
+  "description": "kirk daniels cv app.",
   "main": "index.html",
   "keywords": [
     "Html",
@@ -12,7 +12,7 @@
     "konstruct"
   ],
   "license": "Apache License, Version 2.0",
-  "homepage": "http://www.intelleapp.mobi",
+  "homepage": "http://www.kdee.co.za",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -5,40 +5,80 @@ categories: 	work
 title:  		"V&A Waterfront"
 description:	Public facing website for the V&A Waterfront.
 date:   		2013-08-01
-thumb: 			work/thumbs/intelleapp.png
+thumb: 			work/thumbs/waterfront-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
 
-<section id="waterfront">
+<section class="project" id="waterfront">
 
-    <!--- C.3.1. START DATE SQUARE -->
-    <aside class="square" id="start">
-        <span>AUG</span>
-        <span>2015</span>
+    <!--- C.3.1. Project Details -->
+    
+    <aside class="column-1">
+
+        <aside class="square item" id="start">
+            <div class="content">
+                <span>JAN</span><br />
+                <span>2010</span>
+            </div>
+        </aside>
+
+        <aside class="big square item" id="info">
+            <div class="content">
+                <h2>V&amp;A Waterfront</h2>
+                <h3>Public facing website for the V&amp;A Waterfront.</h3>
+                <p>At that time, this was Airborne's biggest sharepoint implementation.</p>
+                <p><strong>nuts &amp; bolts:</strong></p>
+                <p>Sharepoint 2007, HTML(5), CSS, JQuery</p>
+                <p><strong>my role:</strong></p>
+                <ul>
+                    <li>sharepoint CMS developer</li>
+                    <li>Jquery implementation</li>
+                    <li>Customised blog masterpages &amp; implemented blogging module</li>
+                    <li>Support &amp; maintenance</li>
+                </ul>
+            </div>    
+        </aside>
+
+        <aside class="square item" id="end">
+            <div class="inner">
+                <div class="content">
+                    <span>OCT</span><br />
+                    <span>2013</span>
+                </div>
+            </div>  
+        </aside>
+    
     </aside>
     
-    <aside class="square-big" id="ia-info">
-        <h2>Intelleapp</h2>
-        <h3>STEM content &amp; learning portal for high school students</h3>
-        <p>Android, iOS App &amp; website.</p>
-        <p><strong>nuts &amp; bolts:</strong></p>
-        <p>AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp</p>
-        <p><strong>my role:</strong></p>
-        <ul>
-            <li>UI/UX consulting</li>
-            <li>Development team lead</li>
-            <li>Frontend development &amp; implementation</li>
-            <li>Play &amp; App Store submissions</li>
-        </ul>
-    </aside>
+    <!--- C.3.2. Project Images -->
+    
+    <aside class="column-2">
+    
+        <div class="row-1">
+        
+            <hscroller class="hscroller">
 
-    <!--- C.3.2. END DATE SQUARE -->
-    <aside class="square" id="end">
-        <span>PRE</span>
-        <span>SENT</span>
+                <hcard class="hscroller-card">
+                    <div id="pic-1" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/waterfront-1.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-2" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/waterfront-2.jpg" />
+                    </div>
+                </hcard>
+
+            </hscroller>
+            
+        </div>
+
     </aside>
     
 </section>
 
-<!--- C.3. END ---------------------------------------------------------------------------------------------------- -->
+<!--- C.3. END --------------------------------------------------------------------------------------------------- --> 
+
+<div class="wrapper"></div>

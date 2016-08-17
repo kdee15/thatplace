@@ -22,20 +22,17 @@
 
     width: 100%;
     position: relative;
-    //padding: 0 $baseline-small;
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     
-    .mobile { img { width: 100%; height: auto; }}
 }
 
 .hscroller-card {
 
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
 
     .layer {
 
@@ -47,7 +44,7 @@
     .hscroller-label,
     .hscroller-img {
 
-        //display: none;   
+        display: none;   
 
     }
 }
@@ -59,7 +56,7 @@
     padding: $baseline-small;
     margin: 0 2px;
     border-radius: 10px;
-    box-shadow: 0 3px 10px $ia-grey60; 
+    box-shadow: 0 3px 10px $kd-grey60; 
 
 }
 

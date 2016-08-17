@@ -22,3 +22,7 @@ _system/_site/_bower.cache
 _system/_site/.sass-cache
 
 # 2. CUSTOM IGNORE FODDER
+
+# Ignore Mac DS_Store files
+.DS_Store
+*.DS_Store

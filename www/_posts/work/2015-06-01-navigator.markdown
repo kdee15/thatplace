@@ -5,40 +5,133 @@ categories: 	work
 title:  		"Navigator Films"
 description:	client public facing website
 date:   		2015-06-01
-thumb: 			work/thumbs/navigator.png
+thumb: 			work/thumbs/navigator-1.jpg
 ---
 
 <!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
 
-<section id="navigator">
+<section class="project" id="navigator">
 
-    <!--- C.3.1. START DATE SQUARE -->
-    <aside class="square" id="start">
-        <span>AUG</span>
-        <span>2015</span>
+    <!--- C.3.1. Project Details -->
+    
+    <aside class="column-1">
+
+        <aside class="square item" id="start">
+            <div class="content">
+                <span>OCT</span><br />
+                <span>2014</span>
+            </div>
+        </aside>
+
+        <aside class="big square item" id="info">
+            <div class="content">
+                <h2>Navigator Films</h2>
+                <h3>client public facing website</h3>
+                <p>Public facing website for Navigator Films, a film studio, and production company.</p>
+                <p><strong>nuts &amp; bolts:</strong></p>
+                <p>wordpress, HTML(5), CSS, JQuery, Gulp</p>
+                <p><strong>my role:</strong></p>
+                <ul>
+                    <li>Custom wordpress theming</li>
+                    <li>HTML/CSS/JQuery implementation</li>
+                    <li>assisted with UI/UX development</li>
+                </ul>
+            </div>    
+        </aside>
+
+        <aside class="square item" id="end">
+            <div class="inner">
+                <div class="content">
+                    <span>JAN</span><br />
+                    <span>2015</span>
+                </div>
+            </div>  
+        </aside>
+    
     </aside>
     
-    <aside class="square-big" id="ia-info">
-        <h2>Intelleapp</h2>
-        <h3>STEM content &amp; learning portal for high school students</h3>
-        <p>Android, iOS App &amp; website.</p>
-        <p><strong>nuts &amp; bolts:</strong></p>
-        <p>AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp</p>
-        <p><strong>my role:</strong></p>
-        <ul>
-            <li>UI/UX consulting</li>
-            <li>Development team lead</li>
-            <li>Frontend development &amp; implementation</li>
-            <li>Play &amp; App Store submissions</li>
-        </ul>
-    </aside>
+    <!--- C.3.2. Project Images -->
+    
+    <aside class="column-2">
+    
+        <div class="row-1">
+        
+            <hscroller class="hscroller">
 
-    <!--- C.3.2. END DATE SQUARE -->
-    <aside class="square" id="end">
-        <span>PRE</span>
-        <span>SENT</span>
+                <hcard class="hscroller-card">
+                    <div id="pic-1" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-1.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-2" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-2.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-3.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-4.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-5.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/nav-6.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-1" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-1.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-2" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-2.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-3.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-4.jpg" />
+                    </div>
+                </hcard>
+
+                <hcard class="hscroller-card">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/navigator-5.jpg" />
+                    </div>
+                </hcard>
+
+            </hscroller>
+            
+        </div>
+
     </aside>
     
 </section>
 
-<!--- C.3. END ---------------------------------------------------------------------------------------------------- -->
+<!--- C.3. END --------------------------------------------------------------------------------------------------- --> 
+
+<div class="wrapper"></div>

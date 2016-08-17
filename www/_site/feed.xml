@@ -4,27 +4,38 @@
     <title>kdee.co.za</title>
     <description>my portfolio site ... my little corner where i can play and just hang out.
 </description>
+<<<<<<< HEAD
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Sat, 07 May 2016 09:52:35 +0200</pubDate>
     <lastBuildDate>Sat, 07 May 2016 09:52:35 +0200</lastBuildDate>
+=======
+    <link>http://kdee.co.za/</link>
+    <atom:link href="http://kdee.co.za/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 27 Apr 2016 16:46:12 +0200</pubDate>
+    <lastBuildDate>Wed, 27 Apr 2016 16:46:12 +0200</lastBuildDate>
+>>>>>>> d30d59f02d8824a36204f41be5c2d4b34d57c2d9
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Tonplaygo</title>
-        <description>&lt;section id=&quot;tonplaygo&quot;&gt;
+        <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
+&lt;section class=&quot;project&quot; id=&quot;tonplaygo&quot;&gt;
+
+    &lt;!--- C.3.1. Project Details --&gt;
+    
     &lt;aside class=&quot;column-1&quot;&gt;
 
         &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
-            &lt;span class=&quot;content&quot;&gt;
-                &lt;span&gt;AUG&lt;/span&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;AUG&lt;/span&gt;&lt;br /&gt;
                 &lt;span&gt;2015&lt;/span&gt;
-            &lt;/span&gt;
+            &lt;/div&gt;
         &lt;/aside&gt;
 
         &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
-            &lt;span class=&quot;content&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
                 &lt;h2&gt;Tonplaygo&lt;/h2&gt;
                 &lt;h3&gt;Tonplaygo is a free mobile entertainment and gaming platform, built around a tangible connection to fashion and high-tech brands.&lt;/h3&gt;
                 &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
@@ -37,84 +48,92 @@
                     &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
                     &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
                 &lt;/ul&gt;
-            &lt;/span&gt;    
+            &lt;/div&gt;    
         &lt;/aside&gt;
 
         &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
             &lt;div class=&quot;inner&quot;&gt;
-                &lt;span class=&quot;content&quot;&gt;
-                    &lt;span&gt;PRE&lt;/span&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;PRE&lt;/span&gt;&lt;br /&gt;
                     &lt;span&gt;SENT&lt;/span&gt;
-                &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;  
         &lt;/aside&gt;
     
     &lt;/aside&gt;
     
+    &lt;!--- C.3.2. Project Images --&gt;
+    
     &lt;aside class=&quot;column-2&quot;&gt;
-    &lt;span class=&quot;row-1&quot;&gt;
-    &lt;hscroller class=&quot;hscroller&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-1.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-2.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-3.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-4.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-4.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-5&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-5.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-5&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-5.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-6&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-6.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-6&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-6.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-7&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-7.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-7&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-7.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
 
-        &lt;hcard class=&quot;hscroller-card&quot;&gt;
-            &lt;div id=&quot;pic-8&quot; class=&quot;mobile&quot;&gt;
-                &lt;img class=&quot;&quot; src=&quot;http://localhost:4000/assets/images/work/pics/tpg-8.png&quot; /&gt;
-            &lt;/div&gt;
-        &lt;/hcard&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-8&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/tpg-8.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                    
+                &lt;/hcard&gt;
 
-    &lt;/hscroller&gt;
-        &lt;/span&gt;
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
 
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
 &lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 01 Feb 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2016/02/01/tonplaygo/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2016/02/01/tonplaygo/</guid>
+        <link>http://kdee.co.za/work/2016/02/01/tonplaygo/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2016/02/01/tonplaygo/</guid>
         
         
         <category>work</category>
@@ -123,40 +142,96 @@
     
       <item>
         <title>IntelleApp</title>
-        <description>&lt;section id=&quot;intelleapp&quot;&gt;
+        <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+&lt;section class=&quot;project&quot; id=&quot;intelleapp&quot;&gt;
+
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;NOV&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2015&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;IntelleApp&lt;/h2&gt;
+                &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
+                &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;UI/UX consulting&lt;/li&gt;
+                    &lt;li&gt;Development team lead&lt;/li&gt;
+                    &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
+                    &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;PRE&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;SENT&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt; 
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;desk&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/intelleapp-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/intelleapp-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/intelleapp-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/intelleapp-4.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
 &lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Dec 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2015/12/01/intelleapp/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2015/12/01/intelleapp/</guid>
+        <link>http://kdee.co.za/work/2015/12/01/intelleapp/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2015/12/01/intelleapp/</guid>
         
         
         <category>work</category>
@@ -165,38 +240,167 @@
     
       <item>
         <title>Colourworks</title>
-        <description>&lt;section id=&quot;colourworks&quot;&gt;
+        <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+&lt;section class=&quot;project&quot; id=&quot;colourworks&quot;&gt;
+
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;MAY&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2014&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;Colourworks&lt;/h2&gt;
+                &lt;h3&gt;client public facing website&lt;/h3&gt;
+                &lt;p&gt;Public facing website for Colourworks, a strategic brand experiences and creative marketing company.&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;wordpress, HTML(5), CSS, JQuery, Gulp&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Custom wordpress theming&lt;/li&gt;
+                    &lt;li&gt;HTML/CSS/JQuery implementation&lt;/li&gt;
+                    &lt;li&gt;assisted with UI/UX development&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;JUL&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2015&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt; 
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-4.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-5.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-6.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-7.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-8.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-9.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-10.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-11.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-12.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-13.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-14.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-15.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/cw-16.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
+
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2015/07/01/colourworks/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2015/07/01/colourworks/</guid>
+        <link>http://kdee.co.za/work/2015/07/01/colourworks/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2015/07/01/colourworks/</guid>
         
         
         <category>work</category>
@@ -207,42 +411,135 @@
         <title>Navigator Films</title>
         <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-&lt;section id=&quot;navigator&quot;&gt;
+&lt;section class=&quot;project&quot; id=&quot;navigator&quot;&gt;
 
-    &lt;!--- C.3.1. START DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;OCT&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2014&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;Navigator Films&lt;/h2&gt;
+                &lt;h3&gt;client public facing website&lt;/h3&gt;
+                &lt;p&gt;Public facing website for Navigator Films, a film studio, and production company.&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;wordpress, HTML(5), CSS, JQuery, Gulp&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Custom wordpress theming&lt;/li&gt;
+                    &lt;li&gt;HTML/CSS/JQuery implementation&lt;/li&gt;
+                    &lt;li&gt;assisted with UI/UX development&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;JAN&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2015&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;!--- C.3.2. END DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/nav-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/nav-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/nav-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/nav-4.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/nav-5.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/nav-6.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/navigator-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/navigator-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/navigator-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/navigator-4.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/navigator-5.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
-&lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2015/06/01/navigator/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2015/06/01/navigator/</guid>
+        <link>http://kdee.co.za/work/2015/06/01/navigator/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2015/06/01/navigator/</guid>
         
         
         <category>work</category>
@@ -251,38 +548,133 @@
     
       <item>
         <title>Sports Junction</title>
-        <description>&lt;section id=&quot;sportsjunction&quot;&gt;
+        <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+&lt;section class=&quot;project&quot; id=&quot;stj&quot;&gt;
+
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;AUG&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2014&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;Sports Junction&lt;/h2&gt;
+                &lt;h3&gt;St John’s College student activity manager&lt;/h3&gt;
+                &lt;p&gt;Android and iOS app, and mobi site for parents, students and teachers to manage student activity.&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Gulp&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;UI/UX assistance &amp;amp; wireframing&lt;/li&gt;
+                    &lt;li&gt;App frontend UI design and implementation&lt;/li&gt;
+                    &lt;li&gt;Admin Console desktop frontend UI design&lt;/li&gt;
+                    &lt;li&gt;Admin Console desktop frontend implementation&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;JUN&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2015&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-4&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-4.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-5&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-5.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-6&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-6.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-7&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-7.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card mobi&quot;&gt;
+                    &lt;div id=&quot;pic-8&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-8.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                    
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-6&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-9.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-7&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/stj-10.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
+
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2015/03/01/stj/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2015/03/01/stj/</guid>
+        <link>http://kdee.co.za/work/2015/03/01/stj/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2015/03/01/stj/</guid>
         
         
         <category>work</category>
@@ -293,42 +685,89 @@
         <title>USB</title>
         <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-&lt;section id=&quot;usb&quot;&gt;
+&lt;section class=&quot;project&quot; id=&quot;usb&quot;&gt;
 
-    &lt;!--- C.3.1. START DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;OCT&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2012&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;University of Stellenbosch&lt;/h2&gt;
+                &lt;h3&gt;business school project&lt;/h3&gt;
+                &lt;p&gt;USB staff &amp;amp; student intranet, USB public facing website as well as Belpark Campus portal.&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;sharepoint 2010, HTML(5), CSS, JQuery&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;UI/UX consulting&lt;/li&gt;
+                    &lt;li&gt;visual conceptualisation consulting&lt;/li&gt;
+                    &lt;li&gt;lead sharepoint CMS developer&lt;/li&gt;
+                    &lt;li&gt;HTML/CSS/JQuery implementation&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;APR&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2014&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;!--- C.3.2. END DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/usb-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/usb-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/usb-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
-&lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2014/04/01/usb/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2014/04/01/usb/</guid>
+        <link>http://kdee.co.za/work/2014/04/01/usb/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2014/04/01/usb/</guid>
         
         
         <category>work</category>
@@ -339,42 +778,95 @@
         <title>USB-Ed</title>
         <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-&lt;section id=&quot;usb-ed&quot;&gt;
+&lt;section class=&quot;project&quot; id=&quot;usb-ed&quot;&gt;
 
-    &lt;!--- C.3.1. START DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;OCT&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2012&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;University of Stellenbosch&lt;/h2&gt;
+                &lt;h3&gt;executive development public facing website&lt;/h3&gt;
+                &lt;p&gt;Public facing website for USB-Ed, a division of the University of Stellenbosch Business School&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;sharepoint 2010, HTML(5), CSS, JQuery&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;UI/UX consulting&lt;/li&gt;
+                    &lt;li&gt;visual conceptualisation consulting&lt;/li&gt;
+                    &lt;li&gt;lead sharepoint CMS developer&lt;/li&gt;
+                    &lt;li&gt;HTML/CSS/JQuery implementation&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;APR&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2014&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;!--- C.3.2. END DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/usbed-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/usbed-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/usbed-3.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-3&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/usbed-4.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
-&lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Apr 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2014/04/01/usb-ed/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2014/04/01/usb-ed/</guid>
+        <link>http://kdee.co.za/work/2014/04/01/usb-ed/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2014/04/01/usb-ed/</guid>
         
         
         <category>work</category>
@@ -385,42 +877,82 @@
         <title>V&amp;A Waterfront</title>
         <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-&lt;section id=&quot;waterfront&quot;&gt;
+&lt;section class=&quot;project&quot; id=&quot;waterfront&quot;&gt;
 
-    &lt;!--- C.3.1. START DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;JAN&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2010&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;V&amp;amp;A Waterfront&lt;/h2&gt;
+                &lt;h3&gt;Public facing website for the V&amp;amp;A Waterfront.&lt;/h3&gt;
+                &lt;p&gt;At that time, this was Airborne&#39;s biggest sharepoint implementation.&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Sharepoint 2007, HTML(5), CSS, JQuery&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;sharepoint CMS developer&lt;/li&gt;
+                    &lt;li&gt;Jquery implementation&lt;/li&gt;
+                    &lt;li&gt;Customised blog masterpages &amp;amp; implemented blogging module&lt;/li&gt;
+                    &lt;li&gt;Support &amp;amp; maintenance&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;OCT&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2013&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;!--- C.3.2. END DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/waterfront-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/waterfront-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
-&lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 01 Aug 2013 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2013/08/01/waterfront/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2013/08/01/waterfront/</guid>
+        <link>http://kdee.co.za/work/2013/08/01/waterfront/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2013/08/01/waterfront/</guid>
         
         
         <category>work</category>
@@ -431,42 +963,82 @@
         <title>Old Mutual</title>
         <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-&lt;section id=&quot;old-mutual&quot;&gt;
+&lt;section class=&quot;project&quot; id=&quot;om&quot;&gt;
 
-    &lt;!--- C.3.1. START DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;SEP&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2011&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;Old Mutual&lt;/h2&gt;
+                &lt;h3&gt;colmex and  greenlight uk&lt;/h3&gt;
+                &lt;p&gt;Old Mutual Life Products launched in South America, and the Greenlight Project intended for the UK.&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;microsoft MVC (ASP.NET), with HTML frontend&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;UI/UX assistance&lt;/li&gt;
+                    &lt;li&gt;visual conceptualisation consulting&lt;/li&gt;
+                    &lt;li&gt;lead frontend developer&lt;/li&gt;
+                    &lt;li&gt;HTML/CSS/JQuery implementation&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;SEP&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2012&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;!--- C.3.2. END DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/om-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/om-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
-&lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 01 Sep 2012 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2012/09/01/old-mutual/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2012/09/01/old-mutual/</guid>
+        <link>http://kdee.co.za/work/2012/09/01/old-mutual/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2012/09/01/old-mutual/</guid>
         
         
         <category>work</category>
@@ -477,42 +1049,82 @@
         <title>Capitec</title>
         <description>&lt;!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --&gt;
 
-&lt;section id=&quot;capitec&quot;&gt;
+&lt;section class=&quot;project&quot; id=&quot;capitec&quot;&gt;
 
-    &lt;!--- C.3.1. START DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;start&quot;&gt;
-        &lt;span&gt;AUG&lt;/span&gt;
-        &lt;span&gt;2015&lt;/span&gt;
+    &lt;!--- C.3.1. Project Details --&gt;
+    
+    &lt;aside class=&quot;column-1&quot;&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;start&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;span&gt;JAN&lt;/span&gt;&lt;br /&gt;
+                &lt;span&gt;2011&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;big square item&quot; id=&quot;info&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+                &lt;h2&gt;Capitec Bank&lt;/h2&gt;
+                &lt;h3&gt;Global One Project&lt;/h3&gt;
+                &lt;p&gt;Client Relations Management Solution deployed to consultants in Capitec Banks throughout South Africa. &lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Microsoft MVC (ASP.NET), with XAML frontend&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;UI/UX consulting&lt;/li&gt;
+                    &lt;li&gt;assisted with frontend design &amp;amp; implementation&lt;/li&gt;
+                    &lt;li&gt;UI Standards Origination &amp;amp; Implementation&lt;/li&gt;
+                    &lt;li&gt;XAML frontend development&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;    
+        &lt;/aside&gt;
+
+        &lt;aside class=&quot;square item&quot; id=&quot;end&quot;&gt;
+            &lt;div class=&quot;inner&quot;&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;span&gt;SEP&lt;/span&gt;&lt;br /&gt;
+                    &lt;span&gt;2011&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;  
+        &lt;/aside&gt;
+    
     &lt;/aside&gt;
     
-    &lt;aside class=&quot;square-big&quot; id=&quot;ia-info&quot;&gt;
-        &lt;h2&gt;Intelleapp&lt;/h2&gt;
-        &lt;h3&gt;STEM content &amp;amp; learning portal for high school students&lt;/h3&gt;
-        &lt;p&gt;Android, iOS App &amp;amp; website.&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;nuts &amp;amp; bolts:&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;AngularJS, HTML(5), CSS, JQuery, Cordova, X-Code, Gulp&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;my role:&lt;/strong&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;UI/UX consulting&lt;/li&gt;
-            &lt;li&gt;Development team lead&lt;/li&gt;
-            &lt;li&gt;Frontend development &amp;amp; implementation&lt;/li&gt;
-            &lt;li&gt;Play &amp;amp; App Store submissions&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/aside&gt;
+    &lt;!--- C.3.2. Project Images --&gt;
+    
+    &lt;aside class=&quot;column-2&quot;&gt;
+    
+        &lt;div class=&quot;row-1&quot;&gt;
+        
+            &lt;hscroller class=&quot;hscroller&quot;&gt;
 
-    &lt;!--- C.3.2. END DATE SQUARE --&gt;
-    &lt;aside class=&quot;square&quot; id=&quot;end&quot;&gt;
-        &lt;span&gt;PRE&lt;/span&gt;
-        &lt;span&gt;SENT&lt;/span&gt;
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-1&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/capitec-1.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+                &lt;hcard class=&quot;hscroller-card&quot;&gt;
+                    &lt;div id=&quot;pic-2&quot; class=&quot;mobile&quot;&gt;
+                        &lt;img class=&quot;&quot; src=&quot;http://kdee.co.za/assets/images/work/pics/capitec-2.jpg&quot; /&gt;
+                    &lt;/div&gt;
+                &lt;/hcard&gt;
+
+            &lt;/hscroller&gt;
+            
+        &lt;/div&gt;
+
     &lt;/aside&gt;
     
 &lt;/section&gt;
 
-&lt;!--- C.3. END ---------------------------------------------------------------------------------------------------- --&gt;
+&lt;!--- C.3. END --------------------------------------------------------------------------------------------------- --&gt;
+
+&lt;div class=&quot;wrapper&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 01 Jun 2012 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/work/2012/06/01/capitec/</link>
-        <guid isPermaLink="true">http://localhost:4000/work/2012/06/01/capitec/</guid>
+        <link>http://kdee.co.za/work/2012/06/01/capitec/</link>
+        <guid isPermaLink="true">http://kdee.co.za/work/2012/06/01/capitec/</guid>
         
         
         <category>work</category>

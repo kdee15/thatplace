@@ -5,22 +5,26 @@ categories: 	work
 title:  		"Tonplaygo"
 description:	Tonplaygo is a free mobile entertainment and gaming platform, built around a tangible connection to fashion and high-tech brands.
 date:   		2016-02-01
-thumb: 			work/thumbs/tonplaygo.png
+thumb: 			work/thumbs/tonplaygo.jpg
 ---
 
-<section id="tonplaygo">
+<!--- C.3. CONTENT AREA ------------------------------------------------------------------------------------------- --> 
 
+<section class="project" id="tonplaygo">
+
+    <!--- C.3.1. Project Details -->
+    
     <aside class="column-1">
 
         <aside class="square item" id="start">
-            <span class="content">
-                <span>AUG</span>
+            <div class="content">
+                <span>AUG</span><br />
                 <span>2015</span>
-            </span>
+            </div>
         </aside>
 
         <aside class="big square item" id="info">
-            <span class="content">
+            <div class="content">
                 <h2>Tonplaygo</h2>
                 <h3>Tonplaygo is a free mobile entertainment and gaming platform, built around a tangible connection to fashion and high-tech brands.</h3>
                 <p>Android, iOS App &amp; website.</p>
@@ -33,77 +37,85 @@ thumb: 			work/thumbs/tonplaygo.png
                     <li>Frontend development &amp; implementation</li>
                     <li>Play &amp; App Store submissions</li>
                 </ul>
-            </span>    
+            </div>    
         </aside>
 
         <aside class="square item" id="end">
             <div class="inner">
-                <span class="content">
-                    <span>PRE</span>
+                <div class="content">
+                    <span>PRE</span><br />
                     <span>SENT</span>
-                </span>
+                </div>
             </div>  
         </aside>
     
     </aside>
     
+    <!--- C.3.2. Project Images -->
+    
     <aside class="column-2">
-    <span class="row-1">
-    <hscroller class="hscroller">
+    
+        <div class="row-1">
+        
+            <hscroller class="hscroller">
 
-        <hcard class="hscroller-card">
-            <div id="pic-1" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-1.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-1" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-1.jpg" />
+                    </div>
+                </hcard>
 
-        <hcard class="hscroller-card">
-            <div id="pic-2" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-2.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-2" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-2.jpg" />
+                    </div>
+                </hcard>
 
-        <hcard class="hscroller-card">
-            <div id="pic-3" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-3.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-3" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-3.jpg" />
+                    </div>
+                </hcard>
 
-        <hcard class="hscroller-card">
-            <div id="pic-4" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-4.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-4" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-4.jpg" />
+                    </div>
+                </hcard>
 
-        <hcard class="hscroller-card">
-            <div id="pic-5" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-5.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-5" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-5.jpg" />
+                    </div>
+                </hcard>
 
-        <hcard class="hscroller-card">
-            <div id="pic-6" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-6.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-6" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-6.jpg" />
+                    </div>
+                </hcard>
 
-        <hcard class="hscroller-card">
-            <div id="pic-7" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-7.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-7" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-7.jpg" />
+                    </div>
+                </hcard>
 
-        <hcard class="hscroller-card">
-            <div id="pic-8" class="mobile">
-                <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-8.png" />
-            </div>
-        </hcard>
+                <hcard class="hscroller-card mobi">
+                    <div id="pic-8" class="mobile">
+                        <img class="" src="{{ site.url }}/assets/images/work/pics/tpg-8.jpg" />
+                    </div>
+                    
+                </hcard>
 
-    </hscroller>
-        </span>
+            </hscroller>
+            
+        </div>
 
     </aside>
     
 </section>
+
+<!--- C.3. END --------------------------------------------------------------------------------------------------- --> 
 
 <div class="wrapper"></div>

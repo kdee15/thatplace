@@ -14,7 +14,7 @@
         bottom: 0;
         width: 60px;
         display: block;
-        background: $ia-grey90;
+        background: $kd-grey90;
         z-index: 5;
         
         .logo {
@@ -34,7 +34,7 @@
             ul { 
                 li { display: block; font-size: $x-small;
                     
-                    a { color: $black; 
+                    a { color: $white; 
                         outline: none; 
                         display: block; 
                         vertical-align: middle; 
@@ -54,7 +54,7 @@
         left: 0;
         height: 60px;
         display: block;
-        background: $ia-grey90;
+        background: $kd-grey90;
         z-index: 10000;
         
         .nav {
@@ -67,7 +67,7 @@
             
             ul { text-align: right; 
                 li { display: inline-block; font-size: $small;
-                    a { display: block; padding: $baseline; color: $ia-grey30;
+                    a { display: block; padding: $baseline; color: $kd-grey30;
             }}}
         }
         
@@ -82,7 +82,8 @@
 
                 a {
 
-                    &:hover { color: $ia-blueLight; text-decoration: none; background: $ia-grey20; }
+                    &.active,
+                    &:hover { color: $kd-blueLight; text-decoration: none; background: $kd-grey20; }
                 }
             }
         }
